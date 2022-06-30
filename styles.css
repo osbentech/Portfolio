@@ -1,0 +1,30 @@
+@media (min-width:700px) {
+
+.primary-header {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  border: 10px;
+}
+
+.sidebar-wrapper {
+  display: flex;
+  padding-right: 12%;
+}
+
+.sidebars {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 230px;
+}
+
+.logo-wrapper > h1 {
+   color: blue;
+}
+
+.logo-wrapper {
+padding-left: 12%;
+}
+}

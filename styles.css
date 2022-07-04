@@ -1,6 +1,5 @@
 body {
   width: 310px;
-  height: 718px;
 }
 
 .nav-bars {
@@ -15,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 580px;
+  height: 470px;
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -63,8 +62,8 @@ body {
   padding-bottom: 50%;
 }
 
-.nav-bars > div:hover {
-  color: red;
+.nav-bars > nav:hover {
+  color: #7f8cff;
   cursor: pointer;
 }
 

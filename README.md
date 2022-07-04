@@ -2,7 +2,7 @@
 
 # Hello-world
 
-> My first project as a Microverse_student.
+> My portfolio.
 
 
 ## Built With
@@ -16,9 +16,9 @@
 
 👤 **Benjamin Ejike**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/osbentech)
+- Twitter: [@twitterhandle](https://twitter.com/EjikeOsegbo)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/benjamin-ejike-632248206)
 
 
 ## 🤝 Contributing

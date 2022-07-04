@@ -1,44 +1,100 @@
-@media (min-width:700px) {
-
-.primary-header {
-  flex: 1;
+body {
+  width:360px;
+  height: 718px;
+}
+.nav-bars {
   display: flex;
   justify-content: space-between;
-  border: 10px;
+  align-items: center;
+  height: 48px;
+  width: 340px;
+
 }
 
-.sidebar-wrapper {
+ .main-container {
   display: flex;
-  padding-right: 12%; 
+  flex-direction: column;
+  width:350px;
+  height: 580px; 
+  padding-bottom: 50px;
+  padding-top: 50px;
+} 
+
+.myself {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./photo/bg/Headerbg.png);
+  padding-top: 20px;
+  padding-right: 24px;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size: contain;
+     background-position: top;
 }
 
-.sidebars {
+.myself > .greeting {
+  align-items: center;
+   width: 200px;
+  height: 112.75px;
+  color: #172B4D;
+  padding-left: 23px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.logo-show {
+  padding-right: 24px;
+  /* width: 139px;
+  height: 20px;  */
+  color: blue;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 100%;
-  width: 230px;
+  text-align: center;
+  padding-left: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
 }
 
-.logo-wrapper > h1 {
-  color: blue;
+.menu {
+  padding-right: 13%;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
 
-.logo-wrapper {
-padding-left: 12%;
+.nav-bars > div:hover {
+  color: red;
+  cursor: pointer;
 }
 
-.second-header {
-  display:flex;
-  flex-direction: column; 
-  justify-content: center;
-  /* border: 10px solid royalblue; */
-  align-items:center;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 18%;
-  padding-bottom: 20%;
-  /* min-height: 100vh; */
+.link {
+  color: #7F8CFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 23px;
+  cursor: pointer;
 }
 
+.bio {
+  padding-left: 23px;
+  padding-right: 35px;
+  width: 260px;
+}
+
+.icon {
+  padding-left: 23px;
+  cursor: pointer;
+}
+
+.icon > img {
+  width: 14px;
+  padding: 7px;
+  height: 15px;
 }

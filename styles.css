@@ -1,7 +1,8 @@
 body {
-  width:310px;
+  width: 310px;
   height: 718px;
 }
+
 .nav-bars {
   display: flex;
   justify-content: space-between;
@@ -10,10 +11,10 @@ body {
   width: 340px;
 }
 
- .main-container {
+.main-container {
   display: flex;
   flex-direction: column;
-  width:350px;
+  width: 350px;
   height: 580px; 
   padding-bottom: 50px;
   padding-top: 50px;
@@ -33,9 +34,9 @@ body {
 
 .myself > .greeting {
   align-items: center;
-   width: 200px;
+  width: 200px;
   height: 112.75px;
-  color: #172B4D;
+  color: #172b4d;
   padding-left: 23px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -43,8 +44,6 @@ body {
 
 .logo-show {
   padding-right: 24px;
-  /* width: 139px;
-  height: 20px;  */
   color: blue;
   display: flex;
   align-items: center;
@@ -52,7 +51,6 @@ body {
   padding-left: 24px;
   padding-top: 14px;
   padding-bottom: 14px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 10px;

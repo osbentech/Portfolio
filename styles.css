@@ -15,10 +15,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 580px; 
+  height: 580px;
   padding-bottom: 50px;
   padding-top: 50px;
-} 
+}
 
 .myself {
   display: flex;
@@ -69,8 +69,7 @@ body {
 }
 
 .link {
-  color: #7F8CFF;
-  font-family: 'Poppins';
+  color: #7f8cff;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;

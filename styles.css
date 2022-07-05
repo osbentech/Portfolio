@@ -1,0 +1,95 @@
+body {
+  width: 310px;
+}
+
+.nav-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  width: 340px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 470px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.myself {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./photo/bg/header-shapes-mobile.png);
+  padding-top: 20px;
+  padding-right: 24px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.myself > .greeting {
+  align-items: center;
+  width: 200px;
+  height: 112.75px;
+  color: #172b4d;
+  padding-left: 23px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.logo-show {
+  padding-right: 24px;
+  color: blue;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.menu {
+  padding-right: 13%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+.nav-bars > nav:hover {
+  color: #7f8cff;
+  cursor: pointer;
+}
+
+.link {
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 23px;
+  cursor: pointer;
+}
+
+.bio {
+  padding-left: 23px;
+  padding-right: 35px;
+  width: 260px;
+}
+
+.icon {
+  padding-left: 23px;
+  cursor: pointer;
+}
+
+.icon > img {
+  width: 14px;
+  padding: 7px;
+  height: 15px;
+}

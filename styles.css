@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300;400;500&display=swap');
+
 body {
   width: 310px;
+  padding: 35px;
+  background-color: #e5e5e5;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
 }
 
 .nav-bars {
@@ -13,9 +19,13 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 350px;
-  height: 470px;
+  width: 400px;
+  height: 600px;
   margin-bottom: 100px;
+  background-color:white;
+  border-bottom-left-radius: 20px;
+  border: 2px solid white;
+  padding-top: 50px;
 }
 
 .myself {
@@ -51,14 +61,15 @@ body {
   padding-bottom: 14px;
   font-style: normal;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 20px;
+  margin-top: 3px;
 }
 
 .menu {
-  padding-right: 13%;
   padding-top: 50%;
   padding-bottom: 50%;
+  margin-top: 3px;
 }
 
 .nav-bars > nav:hover {
@@ -67,13 +78,29 @@ body {
 }
 
 .link {
+  display: flex;
+  align-items: flex-start;
   color: #7f8cff;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
-  padding-left: 23px;
+  padding-left: 2px;
   cursor: pointer;
+  width: 130px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: flex-start;
+  margin-left: 22px;
+}
+
+.link:hover {
+  background-color: #6070ff;
+}
+
+.link p:hover {
+  color: #fff;
 }
 
 .bio {
@@ -99,9 +126,10 @@ body {
   height: 650px;
   padding: 15px;
   border-radius: 20px;
-  border: 2px solid goldenrod;
+  border: 2px solid white;
   align-items: center;
   margin-bottom: 100px;
+  background-color:white;
 }
 
 .image-area > img {
@@ -115,6 +143,14 @@ body {
   font-style: normal;
   width: 295px;
   height: 10px;
+}
+
+.tonic2 h1 {
+  font-size: 30px;
+  line-height: 44px;
+  color: #172b4d;
+  font-style: normal;
+  width: 200px;
 }
 
 .canopy-wrapper > ul {
@@ -144,7 +180,7 @@ body {
   justify-content: space-evenly;
   gap: 62px;
   list-style-type: none;
-  padding-left: 2px;
+  padding-left: 14px;
   margin: 10px;
   width: 220px;
 }
@@ -152,7 +188,7 @@ body {
 .project-link {
   border: 1px solid blue;
   width: 150px;
-  height: 30px;
+  height: 50px;
   padding: 12px;
   display: flex;
   justify-content: center;
@@ -165,20 +201,65 @@ body {
   color: #396df2;
 }
 
+.project-link h1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.project-link:hover {
+  background-color: #6070ff;
+}
+
 .technology li {
   border-radius: 6px;
   background-color: #ebebff;
 }
 
+.about-myself-link {
+  border: none;
+  background-color: white;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 2px;
+  cursor: pointer;
+  width: 130px;
+  display: flex;
+}
+
+.about-myself-link p {
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+}
+
+.about-myself-link:hover {
+  color: #6070ff;
+  background-color: #7f8cff;
+  border-radius: 5px;
+}
+
+.about-myself-link p:hover {
+  color: #fff;
+}
+
 .about-myself {
   display: grid;
   width: 350px;
-  height: 750px;
   padding: 15px;
   border-radius: 20px;
-  border: 2px solid goldenrod;
   align-items: center;
   margin-bottom: 100px;
+  background-color:white;
+}
+
+.about-myself h1 {
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+  color: #172b4d;
 }
 
 .about-myself-icons > img {
@@ -204,6 +285,15 @@ body {
 
 .resume p {
   color: #396df2;
+}
+
+.resume:hover {
+  background-color: #6070ff;
+  cursor: pointer;
+}
+
+.resume p:hover {
+  color: #fff;
 }
 
 .about-myself-ul li {
@@ -234,7 +324,7 @@ body {
   justify-content: space-between;
 }
 
-.frameworks span {
+.frameworks img {
   margin-right: 50px;
   color: #253858;
 }
@@ -246,7 +336,7 @@ body {
   justify-content: space-between;
 }
 
-.skills span {
+.skills img {
   margin-right: 50px;
   color: #253858;
 }
@@ -258,3 +348,20 @@ body {
 .about-myself h1 {
   color: #172b4d;
 }
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+}
+
+.language img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+

@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   width: 350px;
   height: 470px;
-  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .myself {
@@ -91,4 +91,170 @@ body {
   width: 14px;
   padding: 7px;
   height: 15px;
+}
+
+.middle-section-container {
+  display: grid;
+  width: 350px;
+  height: 650px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.image-area > img {
+  width: 348px;
+}
+
+.tonic > h1 {
+  font-size: 30px;
+  line-height: 44px;
+  color: #172b4d;
+  font-style: normal;
+   width: 295px;
+   height: 10px;
+}
+
+.canopy-wrapper > ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: #7a869a;
+  gap: 20px;
+}
+
+.canopy-wrapper {
+  display: flex;
+  height: 40px;
+}
+
+.canopy-wrapper > p {
+  width: 50px;
+}
+
+.middle-section-nav-bars {
+  display: flex;
+  align-items: flex-start;
+  width: 30px;
+}
+
+.middle-section-nav-bars > ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 62px;
+  list-style-type: none;
+  padding-left: 2px;
+  margin: 10px;
+  width: 220px;
+}
+
+.project-link {
+  border: 1px solid blue;
+  width: 150px;
+  height: 30px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.project-link > h1 {
+  color: #396df2;
+}
+
+.technology li {
+  border-radius: 6px;
+  background-color: #ebebff;
+}
+
+.about-myself {
+  display: grid;
+  width: 350px;
+  height: 750px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 2px solid goldenrod;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.about-myself-icons > img {
+  width: 14px;
+  padding: 7px;
+  height: 15px;
+}
+
+.about-myself-link p {
+  color: #7f8cff;
+}
+
+.resume {
+  border: 1px solid #396df2;
+  background-color: #ffffff;
+  width: 138px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume p {
+  color: #396df2;
+}
+
+.about-myself-ul li {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f7f7f9;
+  height: 62px;
+  padding-left: 8px;
+}
+
+.about-myself-ul {
+  padding-left: 2px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-myself-ul span {
+  margin-left: 15px;
+}
+
+.frameworks {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frameworks span {
+  margin-right: 50px;
+  color: #253858;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills span {
+  margin-right: 50px;
+  color: #253858;
+}
+
+.header-text p {
+  color: #344563;
+}
+
+.about-myself h1 {
+  color: #172B4D;
 }

@@ -356,3 +356,25 @@ body {
   background-color: #6070ff;
 }
 
+.form-container { 
+  background: url(photo/bg/Contact\ me.png);
+  display: flex;
+  width: 350px;
+  height: 700px;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  align-items: center;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.paragragh { 
+  flex-direction: row;
+  color: #e5e5e5;
+  text-align: center;
+  width: 325px;
+  margin-bottom: 10px;
+}
+

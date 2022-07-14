@@ -398,8 +398,15 @@ body {
   gap: 10px;
 }
 
-.contact-form ul li {
-  border-radius: 20%;
+.contact-form input {
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+.contact-form textarea {
+  border-radius: 10px;
+  width: 300px;
 }
 
 .contact-form {

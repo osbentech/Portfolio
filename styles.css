@@ -378,3 +378,16 @@ body {
   margin-bottom: 10px;
 }
 
+.form-text { 
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px; 
+}
+
+.form-container h1 { 
+  text-align: center;
+  color: #e5e5e5;
+  margin-top: 60px;
+  margin-bottom: 2px;
+}
+

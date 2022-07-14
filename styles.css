@@ -356,7 +356,7 @@ body {
   background-color: #6070ff;
 }
 
-.form-container { 
+.form-container {   
   background: url(photo/bg/Contact\ me.png);
   display: flex;
   width: 350px;
@@ -370,7 +370,7 @@ body {
   background-color: white;
 }
 
-.paragragh { 
+.paragragh {  
   flex-direction: row;
   color: #e5e5e5;
   text-align: center;
@@ -378,10 +378,10 @@ body {
   margin-bottom: 10px;
 }
 
-.form-text { 
+.form-text {  
   display: flex;
   margin-top: 12px;
-  margin-bottom: 12px; 
+  margin-bottom: 12px;
 }
 
 .form-container h1 { 
@@ -391,32 +391,32 @@ body {
   margin-bottom: 2px;
 }
 
-.contact-form ul { 
+.contact-form ul {  
   display: flex;
   flex-direction: column;
   list-style: none;
   gap: 10px;
 }
 
-.contact-form ul li { 
+.contact-form ul li {  
   border-radius: 20%;
 }
 
-.contact-form { 
+.contact-form {  
   display: flex;
   align-items: center;
   padding-right: 30px;
 }
 
-.contact-button { 
+.contact-button {  
   display: flex;
-    margin-left: 40px;
-    width: 100px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    color: #6070ff;
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  color: #6070ff;
 }
 
 .contact-button:hover { 

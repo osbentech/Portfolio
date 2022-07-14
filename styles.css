@@ -357,7 +357,7 @@ body {
 }
 
 .form-container {
-  background: url(photo/bg/background2.png), url(photo/bg/Contact-me.png);
+  background: url(photo/bg/background2.png);
   display: flex;
   width: 350px;
   height: 700px;
@@ -371,10 +371,6 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100%;
-}
-
-background url {
-color: #fff;
 }
 
 .paragragh {

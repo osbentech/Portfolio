@@ -463,4 +463,48 @@ body {
     background-color: #e5e5e5;
     margin: 0;
   }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-bottom: 100px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border: 2px solid white;
+    padding-top: 50px;
+    width: 100%;
+  }
+
+  .nav-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 96%;
+    position: absolute;
+    top: 1px;
+  }
+
+  .myself {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./photo/bg/header-shapes-mobile.png);
+    padding-top: 20px;
+    padding-right: 24px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: 100%;
+  }
+
+  .myself > .greeting {
+    align-items: center;
+    width: 40%;
+    height: 112.75px;
+    color: #172b4d;
+    padding-left: 125px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 }

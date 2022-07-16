@@ -630,5 +630,70 @@ body {
   display: grid;
   margin-bottom: 20px;
 }
+
+
+.header-text p {
+  width: 300px;
 }
+
+.language-wrapper {
+  display: grid;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.about-myself-ul {
+  gap: 12px;
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+}
+
+.about-myself-ul li {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f7f7f9;
+  height: 62px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-myself-ul span {
+  margin-left: 0;
+  font-size: 11px;
+}
+
+.frameworks, .skills h3 {
+  font-size: 12px;
+  color: #344563;
+}
+
+.skills img {
+  width: 12px;
+  margin: 0;
+}
+
+.frameworks img {
+  width: 12px;
+  margin: 0;
+}
+
+.resume {
+  width: 130px;
+}
+
+.language img {
+  width: 10px;
+  margin: 0;
+}
+
+.form-container {
+  width: 97%;
+  background-position: 97%;
+  margin: 50px 0;
+}
+}
+
 

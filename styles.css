@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300;400;500&display=swap');
-
 body {
-  width: 310px;
-  padding: 35px;
   background-color: #e5e5e5;
   font-family: "poppins", sans-serif;
   font-style: normal;
+  margin: 0;
 }
 
 .nav-bars {
@@ -13,18 +11,16 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  width: 340px;
+  margin-right: 12px;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
   height: 600px;
   margin-bottom: 100px;
   background-color: white;
   border-bottom-left-radius: 20px;
-  border: 2px solid white;
   padding-top: 50px;
 }
 
@@ -33,10 +29,8 @@ body {
   flex-direction: column;
   background-image: url(./photo/bg/header-shapes-mobile.png);
   padding-top: 20px;
-  padding-right: 24px;
-  width: 400px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   background-position: top;
 }
 
@@ -68,6 +62,10 @@ body {
   height: 12px;
 }
 
+.desktop-nav-bars {
+  display: none;
+}
+
 .menu {
   padding-top: 50%;
   padding-bottom: 50%;
@@ -89,7 +87,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   padding-left: 1px;
-  width: 112px;
+  width: 120px;
   border: none;
   background-color: white;
   border-radius: 8px;
@@ -130,6 +128,7 @@ body {
   align-items: center;
   margin-bottom: 100px;
   background-color: white;
+  margin: 20px;
 }
 
 .middle-section-container2 {
@@ -142,6 +141,7 @@ body {
   align-items: center;
   margin-bottom: 100px;
   background-color: white;
+  margin: 20px;
 }
 
 .image-area > img {
@@ -250,6 +250,7 @@ body {
   margin-bottom: 100px;
   background-color: white;
   height: 1100px;
+  margin: 22px;
 }
 
 .about-myself h1 {
@@ -268,7 +269,7 @@ body {
 .resume {
   border: 1px solid #396df2;
   background-color: #fff;
-  width: 111px;
+  width: 120px;
   height: 30px;
   border-radius: 4px;
   display: flex;
@@ -365,12 +366,12 @@ body {
   padding: 15px;
   border-radius: 90px 0 0 0;
   align-items: center;
-  margin-bottom: 100px;
   background-color: #6070ff;
   border: none;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100%;
+  margin: 22px;
 }
 
 .paragragh {
@@ -454,3 +455,15 @@ body {
   background-color: #6070ff;
   border: 1px solid white;
 }
+
+.destop-tonic-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+body {
+  width: 100%;
+  background-color: #e5e5e5;
+}
+}
+

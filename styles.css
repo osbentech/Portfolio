@@ -457,7 +457,6 @@ body {
 }
 
 @media (min-width: 768px) {
-
   body {
     width: 100%;
     background-color: #e5e5e5;
@@ -508,7 +507,6 @@ body {
     padding-bottom: 20px;
   }
 
-  
   .bio {
     padding-left: 34px;
     padding-right: 23px;
@@ -692,7 +690,6 @@ body {
     margin: 0;
   }
 
-  
   .resume {
     width: 130px;
   }

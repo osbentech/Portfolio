@@ -5,6 +5,7 @@ body {
   font-family: "poppins", sans-serif;
   font-style: normal;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .nav-bars {
@@ -51,7 +52,7 @@ body {
 
 .logo-show {
   padding-right: 24px;
-  color: blue;
+  color: #6070ff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -60,7 +61,7 @@ body {
   padding-bottom: 14px;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 8px;
   line-height: 20px;
   margin-top: 3px;
   border-radius: 8px;
@@ -193,7 +194,7 @@ body {
 .middle-section-nav-bars > ul {
   display: flex;
   justify-content: space-evenly;
-  gap: 62px;
+  gap: 30px;
   list-style-type: none;
   padding-left: 14px;
   margin: 10px;
@@ -207,7 +208,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 12px;
+  border-radius: 8px;
   background-color: #fff;
   color: #396df2;
   font-size: 16px;
@@ -222,6 +223,8 @@ body {
 .technology li {
   border-radius: 6px;
   background-color: #ebebff;
+  padding: 0 10px 0 10px;
+  color: #6070ff;
 }
 
 .about-myself-link {
@@ -291,9 +294,9 @@ body {
   align-items: center;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: #f7f7f9;
   height: 62px;
   padding-left: 8px;
+  color: #253858;
 }
 
 .about-myself-ul {
@@ -359,7 +362,7 @@ body {
 }
 
 .form-container {
-  background: url(photo/bg/background2.png);
+  background: url(photo/bg/contact-form-bg11shapes.png);
   display: flex;
   height: 700px;
   flex-direction: column;
@@ -461,6 +464,7 @@ body {
     width: 100%;
     background-color: #e5e5e5;
     margin: 0;
+    overflow-x: hidden;
   }
 
   .main-container {
@@ -469,7 +473,7 @@ body {
     height: 500px;
     margin-bottom: 100px;
     background-color: white;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 90px;
     border: 2px solid white;
     padding-top: 50px;
     width: 100%;
@@ -488,10 +492,9 @@ body {
   .myself {
     display: flex;
     flex-direction: column;
-    background-image: url(./photo/bg/header-shapes-mobile.png);
+    background-image: url(./photo/bg/Header1-bg.png);
     padding-top: 20px;
     padding-right: 24px;
-    width: 90%;
     background-repeat: no-repeat;
     background-position: contain;
     background-size: 100%;
@@ -499,12 +502,12 @@ body {
 
   .myself > .greeting {
     align-items: center;
-    width: 40%;
+    width: 220px;
     height: 112.75px;
     color: #172b4d;
     padding-left: 125px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 0;
   }
 
   .bio {
@@ -515,9 +518,9 @@ body {
   }
 
   .bio > p {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 400px;
-    line-height: 21px;
+    line-height: 17px;
     color: #344563;
   }
 
@@ -556,6 +559,8 @@ body {
     display: flex;
     gap: 10px;
     color: #344563;
+    transform: rotate(360deg);
+    font-size: 10px;
   }
 
   .desktop-nav-bars span:hover {
@@ -603,6 +608,7 @@ body {
 
   .text-area p {
     font-size: 11px;
+    color: #253858;
   }
 
   .middle-section-container2 .hero {
@@ -703,5 +709,11 @@ body {
     width: 97%;
     background-position: 97%;
     margin: 50px 0;
+  }
+
+  .my-form-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

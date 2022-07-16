@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Roboto:wght@300;400;500&display=swap');
 
 body {
-  width: 310px;
-  padding: 35px;
   background-color: #e5e5e5;
   font-family: "poppins", sans-serif;
   font-style: normal;
+  margin: 0;
 }
 
 .nav-bars {
@@ -14,6 +13,8 @@ body {
   align-items: center;
   height: 48px;
   width: 340px;
+  position: absolute;
+  top: 0;
 }
 
 .main-container {
@@ -21,7 +22,7 @@ body {
   flex-direction: column;
   width: 400px;
   height: 600px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   background-color: white;
   border-bottom-left-radius: 20px;
   border: 2px solid white;
@@ -33,8 +34,6 @@ body {
   flex-direction: column;
   background-image: url(./photo/bg/header-shapes-mobile.png);
   padding-top: 20px;
-  padding-right: 24px;
-  width: 400px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -74,6 +73,10 @@ body {
   margin-top: 3px;
 }
 
+.desktop-nav-bars {
+  display: none;
+}
+
 .logo-show:hover {
   color: #fff;
   cursor: pointer;
@@ -89,7 +92,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   padding-left: 1px;
-  width: 112px;
+  width: 120px;
   border: none;
   background-color: white;
   border-radius: 8px;
@@ -128,7 +131,7 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   align-items: center;
-  margin-bottom: 100px;
+  margin: 70px 15px;
   background-color: white;
 }
 
@@ -140,7 +143,7 @@ body {
   border-radius: 20px;
   border: 2px solid white;
   align-items: center;
-  margin-bottom: 100px;
+  margin: 70px 15px;
   background-color: white;
 }
 
@@ -243,7 +246,6 @@ body {
 
 .about-myself {
   display: grid;
-  width: 350px;
   padding: 15px;
   border-radius: 20px;
   align-items: center;
@@ -268,7 +270,7 @@ body {
 .resume {
   border: 1px solid #396df2;
   background-color: #fff;
-  width: 111px;
+  width: 120px;
   height: 30px;
   border-radius: 4px;
   display: flex;
@@ -358,8 +360,7 @@ body {
 
 .form-container {
   background: url(photo/bg/background2.png);
-  display: flex;
-  width: 350px;
+  display: flex;;
   height: 700px;
   flex-direction: column;
   padding: 15px;
@@ -370,7 +371,7 @@ body {
   border: none;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 100%;
+  background-position: 50%;
 }
 
 .paragragh {
@@ -453,4 +454,13 @@ body {
   color: #ebebff;
   background-color: #6070ff;
   border: 1px solid white;
+}
+
+@media (min-width: 768px) {
+
+  body {
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: 0;
+  }
 }

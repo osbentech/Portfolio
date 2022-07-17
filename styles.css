@@ -570,8 +570,7 @@ body {
     font-size: 10px;
     padding-right: 200px;
     transition-duration: 1000ms;
-    transition-property: background-color,
-      transform;
+    transition-property: transform;
   }
 
   .desktop-nav-bars span:hover {

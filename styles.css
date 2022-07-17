@@ -51,12 +51,10 @@ body {
 }
 
 .logo-show {
-  padding-right: 24px;
   color: #6070ff;
   display: flex;
   align-items: center;
-  text-align: center;
-  padding-left: 80px;
+  margin-left: 80px;
   padding-top: 14px;
   padding-bottom: 14px;
   font-style: normal;
@@ -65,7 +63,12 @@ body {
   line-height: 20px;
   margin-top: 3px;
   border-radius: 8px;
-  height: 12px;
+  height: 1px;
+  justify-content: center;
+  width: 75px;
+  transition-duration: 1000ms;
+  transition-property: width, transform;
+  transition-timing-function: ease-in;
 }
 
 .menu {
@@ -82,6 +85,7 @@ body {
   color: #fff;
   cursor: pointer;
   background-color: #6070ff;
+  transform: rotate(360deg);
 }
 
 .link {
@@ -451,12 +455,16 @@ body {
   border: none;
   font-weight: 400px;
   font-size: 17px;
+  transition-duration: 1000ms;
+  transition-property: width, transform;
+  transition-timing-function: cubic-bezier(.42,0,.29,1.96);
 }
 
 .contact-button:hover {
   color: #ebebff;
   background-color: #6070ff;
   border: 1px solid white;
+  transform: rotate(45deg);
 }
 
 @media (min-width: 768px) {
@@ -557,17 +565,24 @@ body {
 
   .desktop-nav-bars {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     color: #344563;
-    transform: rotate(360deg);
     font-size: 10px;
     padding-right: 200px;
+    transition-duration: 1000ms;
+    transition-property:background-color, transform;
   }
 
   .desktop-nav-bars span:hover {
     background-color: #6070ff;
     color: #fff;
     border-radius: 5px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    transform: rotate(45deg);
   }
 
   .destop-tonic-img {

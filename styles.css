@@ -457,7 +457,7 @@ body {
   font-size: 17px;
   transition-duration: 1000ms;
   transition-property: width, transform;
-  transition-timing-function: cubic-bezier(.42,0,.29,1.96);
+  transition-timing-function: ease-in;
 }
 
 .contact-button:hover {
@@ -570,7 +570,8 @@ body {
     font-size: 10px;
     padding-right: 200px;
     transition-duration: 1000ms;
-    transition-property:background-color, transform;
+    transition-property:background-color,
+    transform;
   }
 
   .desktop-nav-bars span:hover {

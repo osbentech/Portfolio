@@ -26,6 +26,7 @@ body {
   border-bottom-left-radius: 20px;
   border: 2px solid white;
   padding-top: 50px;
+  margin: 0 15px;
 }
 
 .myself {
@@ -477,12 +478,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 500px;
-    margin-bottom: 100px;
     background-color: white;
     border-bottom-left-radius: 90px;
     border: 2px solid white;
     padding-top: 50px;
     width: 100%;
+    margin: 0 0 100px;
   }
 
   .nav-bars {

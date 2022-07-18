@@ -4,8 +4,8 @@ body {
   background-color: #e5e5e5;
   font-family: "poppins", sans-serif;
   font-style: normal;
-  margin: 0;
   overflow-x: hidden;
+  margin-top: 0;
 }
 
 .nav-bars {
@@ -21,13 +21,12 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
   height: 600px;
-  margin-bottom: 50px;
   background-color: white;
   border-bottom-left-radius: 20px;
   border: 2px solid white;
   padding-top: 50px;
+  margin: 0 15px 100px;
 }
 
 .myself {
@@ -54,7 +53,6 @@ body {
   color: #6070ff;
   display: flex;
   align-items: center;
-  margin-left: 80px;
   padding-top: 14px;
   padding-bottom: 14px;
   font-style: normal;
@@ -75,6 +73,10 @@ body {
   padding-top: 50%;
   padding-bottom: 50%;
   margin-top: 3px;
+}
+
+.menu img {
+  padding-right: 35px;
 }
 
 .desktop-nav-bars {
@@ -130,8 +132,6 @@ body {
 
 .middle-section-container {
   display: grid;
-  width: 350px;
-  height: 650px;
   padding: 15px;
   border-radius: 20px;
   border: 2px solid white;
@@ -142,8 +142,6 @@ body {
 
 .middle-section-container2 {
   display: grid;
-  width: 350px;
-  height: 700px;
   padding: 15px;
   border-radius: 20px;
   border: 2px solid white;
@@ -152,8 +150,18 @@ body {
   background-color: white;
 }
 
+.image-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image-area > img {
-  width: 348px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tonic > h1 {
@@ -256,7 +264,7 @@ body {
   padding: 15px;
   border-radius: 20px;
   align-items: center;
-  margin-bottom: 100px;
+  margin: 100px 15px;
   background-color: white;
   height: 1100px;
 }
@@ -373,12 +381,12 @@ body {
   padding: 15px;
   border-radius: 90px 0 0 0;
   align-items: center;
-  margin-bottom: 100px;
   background-color: #6070ff;
   border: none;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
+  margin: 100px 15px;
 }
 
 .paragragh {
@@ -479,12 +487,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 500px;
-    margin-bottom: 100px;
     background-color: white;
     border-bottom-left-radius: 90px;
     border: 2px solid white;
     padding-top: 50px;
     width: 100%;
+    margin: 0 0 100px;
   }
 
   .nav-bars {
@@ -591,7 +599,7 @@ body {
 
   .middle-section-container {
     display: flex;
-    width: 85%;
+    width: 86%;
     height: 40%;
     background-color: white;
     border-bottom-left-radius: 20px;

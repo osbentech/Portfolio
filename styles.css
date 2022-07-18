@@ -54,7 +54,7 @@ body {
   color: #6070ff;
   display: flex;
   align-items: center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   padding-top: 14px;
   padding-bottom: 14px;
   font-style: normal;
@@ -75,6 +75,10 @@ body {
   padding-top: 50%;
   padding-bottom: 50%;
   margin-top: 3px;
+}
+
+.menu img {
+  padding-right: 35px;
 }
 
 .desktop-nav-bars {
@@ -130,8 +134,6 @@ body {
 
 .middle-section-container {
   display: grid;
-  /* width: 350px; */
-  height: 650px;
   padding: 15px;
   border-radius: 20px;
   border: 2px solid white;
@@ -142,8 +144,6 @@ body {
 
 .middle-section-container2 {
   display: grid;
-  /* width: 350px; */
-  height: 700px;
   padding: 15px;
   border-radius: 20px;
   border: 2px solid white;
@@ -153,7 +153,10 @@ body {
 }
 
 .image-area > img {
-  width: 348px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tonic > h1 {

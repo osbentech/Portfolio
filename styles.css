@@ -5,6 +5,7 @@ body {
   font-family: "poppins", sans-serif;
   font-style: normal;
   overflow-x: hidden;
+  margin-top: 0;
 }
 
 .nav-bars {
@@ -26,7 +27,7 @@ body {
   border-bottom-left-radius: 20px;
   border: 2px solid white;
   padding-top: 50px;
-  margin: 0 15px;
+  margin: 0 15px 100px;
 }
 
 .myself {
@@ -129,7 +130,7 @@ body {
 
 .middle-section-container {
   display: grid;
-  width: 350px;
+  /* width: 350px; */
   height: 650px;
   padding: 15px;
   border-radius: 20px;
@@ -141,7 +142,7 @@ body {
 
 .middle-section-container2 {
   display: grid;
-  width: 350px;
+  /* width: 350px; */
   height: 700px;
   padding: 15px;
   border-radius: 20px;

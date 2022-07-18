@@ -152,6 +152,13 @@ body {
   background-color: white;
 }
 
+.image-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image-area > img {
   width: 100%;
   display: flex;

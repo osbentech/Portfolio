@@ -22,7 +22,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 600px;
-  margin-bottom: 50px;
   background-color: white;
   border-bottom-left-radius: 20px;
   border: 2px solid white;
@@ -54,7 +53,6 @@ body {
   color: #6070ff;
   display: flex;
   align-items: center;
-  /* margin-left: 80px; */
   padding-top: 14px;
   padding-bottom: 14px;
   font-style: normal;

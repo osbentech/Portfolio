@@ -4,7 +4,6 @@ body {
   background-color: #e5e5e5;
   font-family: "poppins", sans-serif;
   font-style: normal;
-  margin: 0;
   overflow-x: hidden;
 }
 
@@ -27,7 +26,6 @@ body {
   border-bottom-left-radius: 20px;
   border: 2px solid white;
   padding-top: 50px;
-  margin: 0 15px;
 }
 
 .myself {

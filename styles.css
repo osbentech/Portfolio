@@ -27,6 +27,7 @@ body {
   border-bottom-left-radius: 20px;
   border: 2px solid white;
   padding-top: 50px;
+  margin: 0 15px;
 }
 
 .myself {
@@ -255,7 +256,7 @@ body {
   padding: 15px;
   border-radius: 20px;
   align-items: center;
-  margin-bottom: 100px;
+  margin: 100px 15px;
   background-color: white;
   height: 1100px;
 }
@@ -372,12 +373,12 @@ body {
   padding: 15px;
   border-radius: 90px 0 0 0;
   align-items: center;
-  margin-bottom: 100px;
   background-color: #6070ff;
   border: none;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
+  margin: 100px 15px;
 }
 
 .paragragh {

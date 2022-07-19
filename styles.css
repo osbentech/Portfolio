@@ -83,6 +83,10 @@ body {
   display: none;
 }
 
+.destop-tonic-img {
+  display: none;
+}
+
 .logo-show:hover {
   color: #fff;
   cursor: pointer;
@@ -150,6 +154,16 @@ body {
   background-color: white;
 }
 
+.text-area {
+  width: 300px;
+}
+
+.text-area p {
+  color: #344563;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .image-area {
   width: 100%;
   display: flex;
@@ -195,6 +209,7 @@ body {
 
 .canopy-wrapper > p {
   width: 50px;
+  color: #344563;
 }
 
 .middle-section-nav-bars {

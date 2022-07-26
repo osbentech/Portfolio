@@ -137,6 +137,18 @@ body {
   display: none;
 }
 
+.language img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.skills img {
+  margin-right: 50px;
+  color: #253858;
+}
+
 .destop-tonic-img {
   display: none;
 }
@@ -177,9 +189,21 @@ body {
   width: 260px;
 }
 
+.frameworks img {
+  margin-right: 50px;
+  color: #253858;
+}
+
 .icon {
   padding-left: 23px;
   cursor: pointer;
+}
+
+.image-area > img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon a > img {
@@ -219,13 +243,6 @@ body {
 }
 
 .image-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-area > img {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -397,21 +414,11 @@ body {
   justify-content: space-between;
 }
 
-.frameworks img {
-  margin-right: 50px;
-  color: #253858;
-}
-
 .skills li {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: space-between;
-}
-
-.skills img {
-  margin-right: 50px;
-  color: #253858;
 }
 
 .header-text p {
@@ -427,13 +434,6 @@ body {
   font-size: 18px;
   color: #396df2;
   border-radius: 6px;
-}
-
-.language img {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-right: 50px;
 }
 
 .language:hover {

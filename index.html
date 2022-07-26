@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><h1>Portfolio</h1></title>
+    <title>Portfolio-DOM</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
 </head>
 <body>
-    <div class="main-container">
+    <section class="main-container">
         <nav class="nav-bars">
             <nav class="logo-show">
               <h2>My Logo</h2>
             </nav>
-            <nav class="menu">
-              <nav><img src="photo/navs/Union.png" alt=""></nav>
-            </nav>
+            <div class="menu">
+             <button class="btn-menu"><img src="photo/navs/Union.png" alt=""></button> 
+            </div>
+            <div class="t-menu">
+              <button class="c-button">&times;</button>
+              <ul class="tul">
+                <li><a href="#tul-1">Portfolio</a></li>
+                <li><a href="#tul-2">About</a></li>
+                <li><a href="#tul-3">Contact</a></li>
+              </ul>
+            </div>
 
             <div class="desktop-nav-bars">
-              <span>Portfolio</span>
-              <span>About</span>
-              <span>Contact</span>
+              <span class="port"><a href="#tul-1">Portfolio</a></span>
+              <span class="ab"><a href="#tul-2">About</a></span>
+              <span class="con"><a href="#tul-3">Contact</a></span>
             </div>
         </nav>
    
-        <section class="myself">
+        <div class="myself">
             <div class="greeting">
                <h1>I'm Benjamin Glad to see you!</h1>
             </div>
@@ -38,16 +46,16 @@
             <button class="link" type="submit">LET'S CONNECT</button>
         
             <div class="icon">
-               <img src="photo/logos/twitter.jpg" alt="">
-               <img src="photo/navs/Linkedin-icon.jpg" alt="">
-               <img src="photo/logos/medium.jpg" alt="">
-               <img src="photo/logos/github.jpg" alt="">
-               <img src="photo/logos/angellist.jpg" alt="">
+              <a href="myself-btn"><img src="photo/logos/github.jpg" alt=""></a>
+              <a href="myself-btn"><img src="photo/navs/Linkedin-icon.jpg" alt=""></a>
+              <a href="myself-btn"><img src="photo/logos/angellist.jpg" alt=""></a>
+              <a href="myself-btn"><img src="photo/logos/twitter.jpg" alt=""></a>
+              <a href="myself-btn"><img src="photo/logos/medium.jpg" alt=""></a>
             </div>
-        </section>
-    </div>
+          </div>
+      </section>
     
-    <section class="middle-section-container">
+    <section id="tul-1" class="middle-section-container">
         <div class="image-area">
           <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
         </div>
@@ -89,7 +97,9 @@
     <section class="middle-section-container2">
       <div class="image-area">
         <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
-      </div><div class="hero">
+      </div>
+
+      <div class="hero">
         <div class="tonic2">
             <h1>Multi-Post Stories</h1>
             <div class="canopy-wrapper">
@@ -187,7 +197,7 @@
       </div>
     </section>
 
-    <section class="about-myself">
+    <section id="tul-2" class="about-myself">
       <div class="about-myself-wrapper">
         <h1 class="header">
           About Myself
@@ -199,13 +209,13 @@
         
         <button class="about-myself-link" type="submit">LET'S CONNECT</button>
 
-        <div class="about-myself-icons">
-          <img src="photo/logos/github.jpg" alt="">
-          <img src="photo/navs/Linkedin-icon.jpg" alt="">
-          <img src="photo/logos/angellist.jpg" alt="">
-          <img src="photo/logos/twitter.jpg" alt="">
-          <img src="photo/logos/medium.jpg" alt="">
-        </div>
+         <div class="about-myself-icons">
+          <a href="benj"><img src="photo/logos/github.jpg" alt=""></a>
+          <a href="benj"><img src="photo/navs/Linkedin-icon.jpg" alt=""></a>
+          <a href="benj"><img src="photo/logos/angellist.jpg" alt=""></a>
+          <a href="benj"><img src="photo/logos/twitter.jpg" alt=""></a>
+          <a href="benj"><img src="photo/logos/medium.jpg" alt=""></a>
+         </div>
         
         <button class="resume" type="submit">Get my resume</button> 
       </div>
@@ -252,7 +262,7 @@
       </div>
     </section>
 
-    <section class="form-container">
+    <section id="tul-3" class="form-container">
          <div class="form-text">
            <h3>Contact me</h3>
          </div>  
@@ -280,5 +290,6 @@
         </form>
       </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

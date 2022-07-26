@@ -78,7 +78,7 @@ body {
 .menu button {
   width: 34px;
   background: none;
-  border: none
+  border: none;
 }
 
 .menu button:hover {
@@ -690,7 +690,6 @@ body {
     border-bottom-left-radius: 20px;
     border: 2px solid white;
     margin: 40px 35px;
-    display: flex;
     flex-direction: row-reverse;
   }
 

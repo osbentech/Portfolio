@@ -5,7 +5,7 @@ body {
   font-family: "poppins", sans-serif;
   font-style: normal;
   overflow-x: hidden;
-  margin-top: 0;
+  margin: 0;
 }
 
 .nav-bars {
@@ -26,7 +26,6 @@ body {
   border-bottom-left-radius: 20px;
   border: 2px solid white;
   padding-top: 50px;
-  margin: 0 15px 100px;
 }
 
 .myself {
@@ -127,6 +126,11 @@ body {
   font-size: 32px;
   gap: 40px;
   color: #fff;
+}
+
+.tul a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .desktop-nav-bars {
@@ -661,6 +665,10 @@ body {
     padding-right: 200px;
     transition-duration: 1000ms;
     transition-property: transform;
+  }
+
+  .desktop-nav-bars a {
+    text-decoration: none;
   }
 
   .desktop-nav-bars span:hover {

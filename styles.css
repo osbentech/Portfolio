@@ -16,7 +16,6 @@ body {
   width: 88%;
   position: fixed;
   top: 0;
-  background-color: #7a869a;
 }
 
 .main-container {
@@ -76,8 +75,59 @@ body {
   margin-top: 3px;
 }
 
+.menu button {
+  width: 34px;
+  background: none;
+  border: none
+}
+
+.menu button:hover {
+  cursor: pointer;
+}
+
 .menu img {
   padding-right: 35px;
+}
+
+.t-menu {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  border-bottom-left-radius: 50px;
+  backdrop-filter: blur(1px);
+  background: #6070ffe9;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  transition: all 100ms ease-in-out;
+  transform: scale(1);
+}
+
+/* .t-menu.active {
+  transform: scale(1);
+} */
+
+.c-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 2rem;
+  color: #fff;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+
+.tul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 32px;
+  gap: 40px;
+  color: #fff;
 }
 
 .desktop-nav-bars {
@@ -129,7 +179,12 @@ body {
   cursor: pointer;
 }
 
-.icon > img {
+.myself-btn {
+  background: none;
+  border: none;
+}
+
+.myself-btn > img {
   width: 14px;
   padding: 7px;
   height: 15px;
@@ -284,6 +339,11 @@ body {
   height: 1100px;
 }
 
+.about-myself-btn {
+  background: white;
+  border: none;
+}
+
 .about-myself h1 {
   width: 100px;
   height: 50px;
@@ -291,7 +351,7 @@ body {
   color: #172b4d;
 }
 
-.about-myself-icons > img {
+.about-myself-btn > img {
   width: 14px;
   padding: 7px;
   height: 15px;

@@ -1,7 +1,7 @@
 const menu = document.querySelector('.menu');
 const menuList = document.querySelector('.t-menu');
 const close = document.querySelector('.c-button');
-const lists = documement.querySelector('.desktop-nav-bars');
+const lists = document.querySelector('.desktop-nav-bars');
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('active');
@@ -13,5 +13,5 @@ close.addEventListener('click', () => {
 });
 
 lists.addEventListener('click', () => {
-    menuList.classList.remove('active');
+  menuList.classList.remove('active');
 });

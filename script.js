@@ -1,7 +1,7 @@
 const menu = document.querySelector('.menu');
 const menuList = document.querySelector('.t-menu');
 const close = document.querySelector('.c-button');
-const lists = document.querySelector('.desktop-nav-bars');
+const lists = document.querySelector('.tul');
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('active');

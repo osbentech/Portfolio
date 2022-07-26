@@ -652,8 +652,7 @@ body {
     color: #344563;
     font-size: 10px;
     padding-right: 200px;
-    transition-duration: 1000ms;
-    transition-property: transform;
+   transition: 0.7s ease;
   }
 
   .desktop-nav-bars a {
@@ -669,7 +668,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 60px;
-    transform: rotate(45deg);
+    font-size: 15px;
   }
 
   .destop-tonic-img {

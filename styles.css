@@ -182,12 +182,7 @@ body {
   cursor: pointer;
 }
 
-.myself-btn {
-  background: none;
-  border: none;
-}
-
-.myself-btn > img {
+.icon a > img {
   width: 14px;
   padding: 7px;
   height: 15px;
@@ -337,14 +332,9 @@ body {
   padding: 15px;
   border-radius: 20px;
   align-items: center;
-  margin: 100px 15px;
+  margin-bottom: 100px;
   background-color: white;
   height: 1100px;
-}
-
-.about-myself-btn {
-  background: white;
-  border: none;
 }
 
 .about-myself h1 {
@@ -354,7 +344,7 @@ body {
   color: #172b4d;
 }
 
-.about-myself-btn > img {
+.about-myself-icons a > img {
   width: 14px;
   padding: 7px;
   height: 15px;
@@ -464,7 +454,6 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
-  margin: 100px 15px;
 }
 
 .paragragh {

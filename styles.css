@@ -665,11 +665,11 @@ body {
 .see1:hover {
   background-color: #396df2;
   color: #fff;
-}
+} 
 
 .bee-btn a:hover {
   color: #fff;
-}
+} 
 
 .bee-btn {
   border: none;
@@ -681,6 +681,15 @@ body {
   font-size: 17px;
   color: #396df2;
 }
+
+.see1 img {
+  width: 30px;
+}
+
+.see1 img:hover {
+  color: #fff;
+  background: #fff;
+} 
 
 .live {
   display: flex;
@@ -980,8 +989,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;
-    height: 400px;
   }
 
   .popup1 .middle-section-container2,
@@ -1019,6 +1026,7 @@ body {
 
   .live {
     margin-right: 90px;
+    width: 90%;
   }
 
   .close,
@@ -1041,5 +1049,25 @@ body {
     gap: 30px;
     list-style-type: none;
     margin: 10px 0 10px 50px;
+  }
+
+  .popup .tonic,
+  .popup .tonic2 {
+    margin-right: 560px;
+  }
+
+  .popup1 .tonic,
+  .popup1 .tonic2 {
+    margin-right: 560px;
+  }
+
+  .popup2 .tonic,
+  .popup2 .tonic2 {
+    margin-right: 560px;
+  }
+
+  .popup3 .tonic,
+  .popup3 .tonic2 {
+    margin-right: 560px;
   }
 }

@@ -184,16 +184,14 @@ open.addEventListener('click', () => {
 
           <button class="close" type="submit">&times</button>
         <div class="popimg">
-          <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
-        </div>
-
-        <div class="destop-tonic-img">
-          <img src="photo/ben/ben4.png" alt="">
+         <img src="photo/ben/ben4.png" alt="Benjamin">
         </div>
 
         <div class="hr">
             <div class="text-area">
               <p>designed and developed by Benjamin Ejike, this project is only for learning purpose
+              Non voluptas repellendus ut dolores sunt qui consequatur consequatur cum odio blanditiis sit dolores esse in officia possimus. Est repellat ullam qui Quis impedit qui obcaecati quod At excepturi accusamus. Et rerum beatae ut aliquid itaque et voluptates voluptate et delectus temporibus.
+              dolores deleniti man?
               </p>
             </div>
             
@@ -208,13 +206,13 @@ open.addEventListener('click', () => {
 
               <div class="live">
                 <div class="see1">
-                  <button class="bee-btn"><a href="#see-1">See live</a></button>
-                  <img src="photo/logos/github.jpg" alt="">
+                  <button class="bee-btn"><a href="file:///C:/Users/Benjamin/Portfolio/index.html" target="_blank">See live</a></button>
+                  <img src="photo/ben/Icon-Export.png" alt="">
                 </div>
-            
+                
                 <div class="see1">
-                  <button class="bee-btn"><a href="#see-2">See source</a></button>
-                  <img src="photo/logos/github.jpg" alt="">
+                  <button class="bee-btn"><a href="https://github.com/osbentech/Portfolio" target="_blank">See source</a></button>
+                  <img src="photo/ben/Icon-GitHub11.png" alt="">
                 </div>
               </div>
             </div>
@@ -254,13 +252,15 @@ open1.addEventListener('click', () => {
         </div>
       <button class="close1" type="submit">&times</button>
       <div class="popimg">
-      <img src="photo/ben/ben4.png" alt="Benjamin">
+       <img src="photo/ben/ben4.png" alt="Benjamin">
       </div>
 
       <div class="hr">
 
         <div class="text-area">
           <p>This project was designed by Benjamin Ejike, while studying with microverse.
+          Non voluptas repellendus ut dolores sunt qui consequatur consequatur cum odio blanditiis sit dolores esse in officia possimus. Est repellat ullam qui Quis impedit qui obcaecati quod At excepturi accusamus. Et rerum beatae ut aliquid itaque et voluptates voluptate et delectus temporibus.
+          volvel dolores deleniti man?
           </p>
         </div>
         <div class="pop-side">
@@ -272,17 +272,17 @@ open1.addEventListener('click', () => {
             </ul>
           </div>
 
-          <div class="live">
-            <div class="see1">
-              <button class="bee-btn"><a href="#see-1">See live</a></button>
-              <img src="photo/logos/github.jpg" alt="">
-            </div>
-      
-            <div class="see1">
-              <button class="bee-btn"><a href="#see-2">See source</a></button>
-              <img src="photo/logos/github.jpg" alt="">
-            </div>
-          </div>
+              <div class="live">
+                <div class="see1">
+                  <button class="bee-btn"><a href="file:///C:/Users/Benjamin/Portfolio/index.html" target="_blank">See live</a></button>
+                  <img src="photo/ben/Icon-Export.png" alt="">
+                </div>
+                
+                <div class="see1">
+                  <button class="bee-btn"><a href="https://github.com/osbentech/Portfolio" target="_blank">See source</a></button>
+                  <img src="photo/ben/Icon-GitHub11.png" alt="">
+                </div>
+              </div>
         </div>
 
        
@@ -330,6 +330,8 @@ open2.addEventListener('click', () => {
       <div class="hr">
           <div class="text-area">
             <p>This project was designed by Benjamin Ejike, while studying with microverse.
+            Non voluptas repellendus ut dolores sunt qui consequatur consequatur cum odio blanditiis sit dolores esse in officia possimus. Est repellat ullam qui Quis impedit qui obcaecati quod At excepturi accusamus. Et rerum beatae ut aliquid itaque et voluptates voluptate et delectus temporibus.
+            volvel dolores deleniti man?
             </p>
           </div>
           <div class="pop-side">
@@ -343,13 +345,13 @@ open2.addEventListener('click', () => {
 
             <div class="live">
               <div class="see1">
-                <button class="bee-btn"><a href="#see-1">See live</a></button>
-                <img src="photo/logos/github.jpg" alt="">
+                <button class="bee-btn"><a href="file:///C:/Users/Benjamin/Portfolio/index.html" target="_blank">See live</a></button>
+                <img src="photo/ben/Icon-Export.png" alt="">
               </div>
-          
+              
               <div class="see1">
-              <button class="bee-btn"><a href="#see-2">See source</a></button>
-              <img src="photo/logos/github.jpg" alt="">
+                <button class="bee-btn"><a href="https://github.com/osbentech/Portfolio" target="_blank">See source</a></button>
+                <img src="photo/ben/Icon-GitHub11.png" alt="">
               </div>
             </div>
           </div>
@@ -411,17 +413,17 @@ open3.addEventListener('click', () => {
          </ul>
         </div>
       
-          <div class="live">
-            <div class="see1">
-            <button class="bee-btn"><a href="#see-1">See live</a></button>
-            <img src="photo/logos/github.jpg" alt="">
-            </div>
-        
-            <div class="see1">
-              <button class="bee-btn"><a href="#see-2">See source</a></button>
-              <img src="photo/logos/github.jpg" alt="">
-            </div>
+        <div class="live">
+          <div class="see1">
+            <button class="bee-btn"><a href="file:///C:/Users/Benjamin/Portfolio/index.html" target="_blank">See live</a></button>
+            <img src="photo/ben/Icon-Export.png" alt="">
           </div>
+      
+          <div class="see1">
+            <button class="bee-btn"><a href="https://github.com/osbentech/Portfolio" target="_blank">See source</a></button>
+            <img src="photo/ben/Icon-GitHub11.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </section>

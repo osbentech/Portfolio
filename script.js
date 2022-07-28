@@ -7,7 +7,9 @@ const section = document.createElement('section');
 allCards.appendChild(section);
 section.innerHTML = `
     <section id="tul-1" class="middle-section-container">
-
+      <div class="image-area">
+        <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
+      </div>
 
       <div class="destop-tonic-img">
         <img src="photo/navs/Snapshoot-Portfolio.jpg" alt="">
@@ -23,10 +25,6 @@ section.innerHTML = `
                   <li>2015</li>
                 </ul>
             </div>
-        </div>
-
-        <div class="image-area">
-        <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
         </div>
 
           <div class="text-area">
@@ -48,7 +46,9 @@ section.innerHTML = `
 
 
       <section class="middle-section-container2">
-
+      <div class="image-area">
+      <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
+      </div>
 
       <div class="hero">
       <div class="tonic2">
@@ -60,10 +60,6 @@ section.innerHTML = `
               <li>2015</li>
             </ul>
           </div>
-      </div>
-
-      <div class="image-area">
-      <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
       </div>
 
         <div class="text-area">
@@ -84,7 +80,9 @@ section.innerHTML = `
       </section>
 
       <section class="middle-section-container">
-
+      <div class="image-area">
+      <img src="photo/logos/Snapshoot-Portfolio3.png" alt="Benjamin">
+      </div>
 
       <div class="hero">
         <div class="tonic">
@@ -97,10 +95,6 @@ section.innerHTML = `
                 </ul>
             </div>
         </div>
-
-        <div class="image-area">
-      <img src="photo/logos/Snapshoot-Portfolio3.png" alt="Benjamin">
-      </div>
 
           <div class="text-area">
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
@@ -120,7 +114,9 @@ section.innerHTML = `
     </section>
 
     <section id="tul-1" class="middle-section-container2">
-
+      <div class="image-area">
+      <img src="photo/logos/Snapshoot-Portfolio4.png" alt="Benjamin">
+      </div>
 
       <div class="hero">
       <div class="tonic2">
@@ -132,10 +128,6 @@ section.innerHTML = `
               <li>2015</li>
             </ul>
           </div>
-      </div>
-
-      <div class="image-area">
-      <img src="photo/logos/Snapshoot-Portfolio4.png" alt="Benjamin">
       </div>
 
         <div class="text-area">
@@ -179,52 +171,54 @@ open.addEventListener('click', () => {
   popup.className = 'popup'
   popup.innerHTML = `
       <section id="tul-1" class="middle-section-container">
-      <div class="hero">
-        <div class="tonic">
-         <h1>Tonic</h1>
-          <button class="close" type="submit">&times</button>
-        </div>
-        <div class="canopy-wrapper">
-             <p>bentech</p>
-             <ul>
-                <li>Back End Dev</li>
-                <li>2022</li>
-             </ul>
-        </div>
-      </div>
-        <div class="popimg">
-          <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
-        </div>
-
-
-
-
-            <div class="text-area">
-              <p>designed and developed by Benjamin Ejike, this project is only for learning purpose
-              </p>
-            </div>
-            <div class="middle-section-nav-bars">
+        <div class="middle-section-nav-bars">
           <ul class="technology">
             <li>html</li>
             <li>css</li>
             <li>javascript</li>
           </ul>
           </div>
+        <div class="popimg">
+          <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
+        </div>
+
+        <div class="destop-tonic-img">
+          <img src="photo/navs/Snapshoot-Portfolio.jpg" alt="">
+        </div>
+
+        <div class="hero">
+          <div class="tonic">
+            <h1>Tonic</h1>
+              <div class="canopy-wrapper">
+                <p>bentech</p>
+                  <ul>
+                  <li>Back End Dev</li>
+                    <li>2022</li>
+                  </ul>
+              </div>
+          </div>
+
+            <div class="text-area">
+              <p>designed and developed by Benjamin Ejike, this project is only for learning purpose
+              </p>
+            </div>
+
             <div class="live">
               <div class="see1">
                 <button class="bee-btn"><a href="#see-1">See live</a></button>
                 <img src="photo/logos/github.jpg" alt="">
               </div>
-
+          
               <div class="see1">
                 <button class="bee-btn"><a href="#see-2">See source</a></button>
                 <img src="photo/logos/github.jpg" alt="">
               </div>
             </div>
 
+          <button class="close" type="submit">&times</button>
         </div>
       </section>
-
+    
   `;
 
   main.appendChild(popup);
@@ -245,12 +239,17 @@ open1.addEventListener('click', () => {
   popup1.className = 'popup1'
   popup1.innerHTML = `
   <section class="middle-section-container2">
-
-
+  
+      <div class="middle-section-nav-bars">
+        <ul class="technology">
+          <li>html</li>
+          <li>css</li>
+          <li>javascript</li>
+        </ul>
+      </div>
       <div class="popimg">
       <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
       </div>
-      <button class="close1" type="submit">&times</button>
 
       <div class="hero">
       <div class="tonic2">
@@ -274,19 +273,14 @@ open1.addEventListener('click', () => {
             <button class="bee-btn"><a href="#see-1">See live</a></button>
             <img src="photo/logos/github.jpg" alt="">
           </div>
-          <div class="middle-section-nav-bars">
-          <ul class="technology">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-        </div>
+    
           <div class="see1">
             <button class="bee-btn"><a href="#see-2">See source</a></button>
             <img src="photo/logos/github.jpg" alt="">
           </div>
         </div>
 
+        <button class="close1" type="submit">&times</button>
       </div>
       </section>
   `;
@@ -309,13 +303,18 @@ open2.addEventListener('click', () => {
   const popup2 = document.createElement('div');
   popup2.className = 'popup2'
   popup2.innerHTML = `
-
+  
   <section class="middle-section-container">
-
+        <div class="middle-section-nav-bars">
+          <ul class="technology">
+           <li>html</li>
+           <li>css</li>
+           <li>javascript</li>
+          </ul>
+        </div>
       <div class="popimg">
        <img src="photo/logos/Snapshoot-Portfolio3.png" alt="Benjamin">
       </div>
-      <button class="close2" type="submit">&times</button>
 
       <div class="hero">
         <div class="tonic">
@@ -333,25 +332,20 @@ open2.addEventListener('click', () => {
             <p>This project was designed by Benjamin Ejike, while studying with microverse.
             </p>
           </div>
-          <div class="middle-section-nav-bars">
-          <ul class="technology">
-           <li>html</li>
-           <li>css</li>
-           <li>javascript</li>
-          </ul>
-        </div>
+
           <div class="live">
             <div class="see1">
               <button class="bee-btn"><a href="#see-1">See live</a></button>
               <img src="photo/logos/github.jpg" alt="">
             </div>
-
+        
             <div class="see1">
              <button class="bee-btn"><a href="#see-2">See source</a></button>
              <img src="photo/logos/github.jpg" alt="">
             </div>
           </div>
 
+        <button class="close2" type="submit">&times</button>
       </div>
     </section>
   `;
@@ -373,13 +367,18 @@ open3.addEventListener('click', () => {
   const popup3 = document.createElement('div');
   popup3.className = 'popup3'
   popup3.innerHTML = `
-
+  
   <section id="tul-1" class="middle-section-container2">
-
+    <div class="middle-section-nav-bars">
+      <ul class="technology">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+      </ul>
+    </div>
   <div class="popimg">
   <img src="photo/logos/Snapshoot-Portfolio4.png" alt="Benjamin">
   </div>
-  <button class="close3 type="submit">&times</button>
 
   <div class="hero">
   <div class="tonic2">
@@ -397,25 +396,20 @@ open3.addEventListener('click', () => {
       <p>one of many works of Benjamin Ejike, mainly for learning purpose only, report any illegal copyright.
       </p>
     </div>
-    <div class="middle-section-nav-bars">
-    <ul class="technology">
-      <li>html</li>
-      <li>css</li>
-      <li>javascript</li>
-    </ul>
-  </div>
+
     <div class="live">
       <div class="see1">
         <button class="bee-btn"><a href="#see-1">See live</a></button>
         <img src="photo/logos/github.jpg" alt="">
       </div>
-
+    
       <div class="see1">
         <button class="bee-btn"><a href="#see-2">See source</a></button>
         <img src="photo/logos/github.jpg" alt="">
       </div>
     </div>
 
+    <button class="close3 type="submit">&times</button>
   </div>
 </section>
   `;

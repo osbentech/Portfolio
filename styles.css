@@ -103,9 +103,9 @@ body {
   transform: scale(0);
 }
 
-/* .t-menu.active {
+.t-menu.active {
   transform: scale(1);
-} */
+}
 
 .c-button {
   cursor: pointer;
@@ -564,9 +564,9 @@ body {
   justify-content: center;
 }
 
-/* .popimg img {
+.popimg img {
   width: 100%;
-} */
+}
 
 .main1 {
   width: 100vw;
@@ -651,19 +651,32 @@ body {
   position: absolute;
   top: 0;
   margin: 80px 0 0 335px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .see1 {
-  border: 1px solid #253858;
-  width: 140px;
+  border: 1px solid #396df2;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
   background-color: #fff;
-  height: 30px;
-  padding-left: 40px;
+  height: 50px;
   margin-top: 20px;
+}
+
+.see1:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.bee-btn a:hover {
+  color: #fff;
 }
 
 .bee-btn {
@@ -674,7 +687,14 @@ body {
 .bee-btn a {
   text-decoration: none;
   font-size: 17px;
-  color: #172b4d;
+  color: #396df2;
+}
+
+.live {
+  display: flex;
+  width: 100%;
+  gap: 17px;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {

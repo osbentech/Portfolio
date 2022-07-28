@@ -387,7 +387,7 @@ open3.addEventListener('click', () => {
         </div> 
       
     <div class="popimg">
-     <img src="photo/logos/Snapshoot-Portfolio4.png" alt="Benjamin">
+     <img src="photo/ben/ben4.png" alt="Benjamin">
     </div>
 
     <div class="hr">

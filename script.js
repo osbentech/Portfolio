@@ -188,32 +188,34 @@ open.addEventListener('click', () => {
         </div>
 
         <div class="destop-tonic-img">
-          <img src="photo/navs/Snapshoot-Portfolio.jpg" alt="">
+          <img src="photo/ben/ben4.png" alt="">
         </div>
 
-        <div class="hero">
+        <div class="hr">
             <div class="text-area">
               <p>designed and developed by Benjamin Ejike, this project is only for learning purpose
               </p>
             </div>
-
-            <div class="middle-section-nav-bars">
-              <ul class="technology">
-                <li>html</li>
-                <li>css</li>
-                <li>javascript</li>
-              </ul>
-            </div>
-
-            <div class="live">
-              <div class="see1">
-                <button class="bee-btn"><a href="#see-1">See live</a></button>
-                <img src="photo/logos/github.jpg" alt="">
+            
+            <div class="pop-side">
+              <div class="middle-section-nav-bars">
+                <ul class="technology">
+                  <li>html</li>
+                  <li>css</li>
+                  <li>javascript</li>
+                </ul>
               </div>
-          
-              <div class="see1">
-                <button class="bee-btn"><a href="#see-2">See source</a></button>
-                <img src="photo/logos/github.jpg" alt="">
+
+              <div class="live">
+                <div class="see1">
+                  <button class="bee-btn"><a href="#see-1">See live</a></button>
+                  <img src="photo/logos/github.jpg" alt="">
+                </div>
+            
+                <div class="see1">
+                  <button class="bee-btn"><a href="#see-2">See source</a></button>
+                  <img src="photo/logos/github.jpg" alt="">
+                </div>
               </div>
             </div>
 
@@ -252,33 +254,34 @@ open1.addEventListener('click', () => {
         </div>
       <button class="close1" type="submit">&times</button>
       <div class="popimg">
-      <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
+      <img src="photo/ben/ben4.png" alt="Benjamin">
       </div>
 
-      <div class="hero">
+      <div class="hr">
 
         <div class="text-area">
           <p>This project was designed by Benjamin Ejike, while studying with microverse.
           </p>
         </div>
-
-        <div class="middle-section-nav-bars">
-          <ul class="technology">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-        </div>
-
-        <div class="live">
-          <div class="see1">
-            <button class="bee-btn"><a href="#see-1">See live</a></button>
-            <img src="photo/logos/github.jpg" alt="">
+        <div class="pop-side">
+          <div class="middle-section-nav-bars">
+            <ul class="technology">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
           </div>
-    
-          <div class="see1">
-            <button class="bee-btn"><a href="#see-2">See source</a></button>
-            <img src="photo/logos/github.jpg" alt="">
+
+          <div class="live">
+            <div class="see1">
+              <button class="bee-btn"><a href="#see-1">See live</a></button>
+              <img src="photo/logos/github.jpg" alt="">
+            </div>
+      
+            <div class="see1">
+              <button class="bee-btn"><a href="#see-2">See source</a></button>
+              <img src="photo/logos/github.jpg" alt="">
+            </div>
           </div>
         </div>
 
@@ -321,34 +324,35 @@ open2.addEventListener('click', () => {
         <button class="close2" type="submit">&times</button>
 
       <div class="popimg">
-       <img src="photo/logos/Snapshoot-Portfolio3.png" alt="Benjamin">
+       <img src="photo/ben/ben4.png" alt="Benjamin">
       </div>
 
-      <div class="hero">
+      <div class="hr">
           <div class="text-area">
             <p>This project was designed by Benjamin Ejike, while studying with microverse.
             </p>
           </div>
-          <div class="middle-section-nav-bars">
-            <ul class="technology">
-              <li>html</li>
-              <li>css</li>
-              <li>javascript</li>
-            </ul>
-          </div>
+          <div class="pop-side">
+            <div class="middle-section-nav-bars">
+              <ul class="technology">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
+            </div>
 
-          <div class="live">
-            <div class="see1">
-              <button class="bee-btn"><a href="#see-1">See live</a></button>
+            <div class="live">
+              <div class="see1">
+                <button class="bee-btn"><a href="#see-1">See live</a></button>
+                <img src="photo/logos/github.jpg" alt="">
+              </div>
+          
+              <div class="see1">
+              <button class="bee-btn"><a href="#see-2">See source</a></button>
               <img src="photo/logos/github.jpg" alt="">
-            </div>
-        
-            <div class="see1">
-             <button class="bee-btn"><a href="#see-2">See source</a></button>
-             <img src="photo/logos/github.jpg" alt="">
+              </div>
             </div>
           </div>
-
         
       </div>
     </section>
@@ -395,7 +399,7 @@ open3.addEventListener('click', () => {
         <div class="text-area">
           <p>one of many works of Benjamin Ejike, mainly for learning purpose only, report any illegal copyright.
           Non voluptas repellendus ut dolores sunt qui consequatur consequatur cum odio blanditiis sit dolores esse in officia possimus. Est repellat ullam qui Quis impedit qui obcaecati quod At excepturi accusamus. Et rerum beatae ut aliquid itaque et voluptates voluptate et delectus temporibus.
-          volvel dolores deleniti et? 
+          volvel dolores deleniti man? 
           </p>
         </div>
       <div class="pop-side">

@@ -550,14 +550,6 @@ body {
   background-color: rgba(0, 0, 0, 30%);
 }
 
-.pop-up {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: red;
-}
-
 .popimg {
   display: flex;
   align-items: center;
@@ -992,8 +984,17 @@ body {
     height: 400px;
   }
 
-  .popup1,
+  .popup1 .middle-section-container2,
   .popup3 .middle-section-container2 {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border: 2px solid white;
+    margin: 40px 35px;
+    flex-direction: column;
+  }
+
+  .popup .middle-section-container,
+  .popup2 .middle-section-container {
     background-color: white;
     border-bottom-left-radius: 20px;
     border: 2px solid white;
@@ -1020,19 +1021,6 @@ body {
     margin-right: 90px;
   }
 
-  /* .popup,
-  .popup1,
-  .popup2,
-  .popup3 .middle-section-nav-bars {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
-    list-style-type: none;
-    padding-left: 61px;
-    margin: 10px;
-    width: 220px; 
-  } */
-
   .close,
   .close1,
   .close2,
@@ -1044,15 +1032,14 @@ body {
     width: 150px;
   }
 
-  .popup,
-  .popup1,
-  .popup2,
+  .popup .technology,
+  .popup1 .technology,
+  .popup2 .technology,
   .popup3 .technology {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
     list-style-type: none;
     margin: 10px 0 10px 50px;
-    /* width: 220px; */
   }
 }

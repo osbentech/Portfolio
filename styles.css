@@ -650,7 +650,7 @@ body {
   display: flex;
   position: absolute;
   top: 0;
-  margin: 80px 0 0 335px;
+  margin: 80px 0 0 600px;
   border: none;
   height: 30px;
   width: 30px;
@@ -660,7 +660,7 @@ body {
 
 .see1 {
   border: 1px solid #396df2;
-  width: 150px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -695,6 +695,10 @@ body {
   width: 100%;
   gap: 17px;
   justify-content: center;
+}
+
+.hr .text-area {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -971,5 +975,84 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .pop-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 60px;
+  }
+
+  .popimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 400px;
+  }
+
+  .popup1,
+  .popup3 .middle-section-container2 {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border: 2px solid white;
+    margin: 40px 35px;
+    flex-direction: column;
+  }
+
+  .hr {
+    display: flex;
+  }
+
+  .hr .text-area {
+    font-size: 11px;
+    color: #344563;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    gap: 25px;
+  }
+
+  .live {
+    margin-right: 90px;
+  }
+
+  /* .popup,
+  .popup1,
+  .popup2,
+  .popup3 .middle-section-nav-bars {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style-type: none;
+    padding-left: 61px;
+    margin: 10px;
+    width: 220px; 
+  } */
+
+  .close,
+  .close1,
+  .close2,
+  .close3 {
+    margin: 80px 0 0 600px;
+  }
+
+  .see1 {
+    width: 150px;
+  }
+
+  .popup,
+  .popup1,
+  .popup2,
+  .popup3 .technology {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style-type: none;
+    margin: 10px 0 10px 50px;
+    /* width: 220px; */
   }
 }

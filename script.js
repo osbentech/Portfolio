@@ -171,13 +171,18 @@ open.addEventListener('click', () => {
   popup.className = 'popup'
   popup.innerHTML = `
       <section id="tul-1" class="middle-section-container">
-        <div class="middle-section-nav-bars">
-          <ul class="technology">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          </div>
+            <div class="tonic">
+               <h1>Tonic</h1>
+              <div class="canopy-wrapper">
+                <p>bentech</p>
+                <ul>
+                  <li>Back End Dev</li>
+                  <li>2022</li>
+                </ul>
+              </div>
+            </div>
+
+          <button class="close" type="submit">&times</button>
         <div class="popimg">
           <img src="photo/logos/Snapshoot-Portfolio.png" alt="Benjamin">
         </div>
@@ -187,20 +192,17 @@ open.addEventListener('click', () => {
         </div>
 
         <div class="hero">
-          <div class="tonic">
-            <h1>Tonic</h1>
-              <div class="canopy-wrapper">
-                <p>bentech</p>
-                  <ul>
-                  <li>Back End Dev</li>
-                    <li>2022</li>
-                  </ul>
-              </div>
-          </div>
-
             <div class="text-area">
               <p>designed and developed by Benjamin Ejike, this project is only for learning purpose
               </p>
+            </div>
+
+            <div class="middle-section-nav-bars">
+              <ul class="technology">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+              </ul>
             </div>
 
             <div class="live">
@@ -215,7 +217,6 @@ open.addEventListener('click', () => {
               </div>
             </div>
 
-          <button class="close" type="submit">&times</button>
         </div>
       </section>
     
@@ -238,34 +239,35 @@ open1.addEventListener('click', () => {
   const popup1 = document.createElement('div');
   popup1.className = 'popup1'
   popup1.innerHTML = `
-  <section class="middle-section-container2">
-  
-      <div class="middle-section-nav-bars">
-        <ul class="technology">
-          <li>html</li>
-          <li>css</li>
-          <li>javascript</li>
-        </ul>
-      </div>
-      <div class="popimg">
-      <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
-      </div>
-
-      <div class="hero">
-      <div class="tonic2">
+    <section class="middle-section-container2">
+        <div class="tonic2">
           <h1>Multi-Post Stories</h1>
           <div class="canopy-wrapper">
-            <p>Bentech</p>
+           <p>Bentech</p>
             <ul>
               <li>Back End Dev</li>
               <li>2015</li>
             </ul>
           </div>
+        </div>
+      <button class="close1" type="submit">&times</button>
+      <div class="popimg">
+      <img src="photo/logos/Snapshoot-Portfolio2.png" alt="Benjamin">
       </div>
+
+      <div class="hero">
 
         <div class="text-area">
           <p>This project was designed by Benjamin Ejike, while studying with microverse.
           </p>
+        </div>
+
+        <div class="middle-section-nav-bars">
+          <ul class="technology">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
         </div>
 
         <div class="live">
@@ -280,9 +282,9 @@ open1.addEventListener('click', () => {
           </div>
         </div>
 
-        <button class="close1" type="submit">&times</button>
+       
       </div>
-      </section>
+    </section>
   `;
 
   main1.appendChild(popup1);
@@ -305,32 +307,34 @@ open2.addEventListener('click', () => {
   popup2.innerHTML = `
   
   <section class="middle-section-container">
-        <div class="middle-section-nav-bars">
-          <ul class="technology">
-           <li>html</li>
-           <li>css</li>
-           <li>javascript</li>
-          </ul>
-        </div>
-      <div class="popimg">
-       <img src="photo/logos/Snapshoot-Portfolio3.png" alt="Benjamin">
-      </div>
-
-      <div class="hero">
         <div class="tonic">
           <h1>Tonic</h1>
             <div class="canopy-wrapper">
               <p>CANOPY</p>
                 <ul>
-                <li>Back End Dev</li>
+                  <li>Back End Dev</li>
                   <li>2015</li>
                 </ul>
             </div>
         </div>
 
+        <button class="close2" type="submit">&times</button>
+
+      <div class="popimg">
+       <img src="photo/logos/Snapshoot-Portfolio3.png" alt="Benjamin">
+      </div>
+
+      <div class="hero">
           <div class="text-area">
             <p>This project was designed by Benjamin Ejike, while studying with microverse.
             </p>
+          </div>
+          <div class="middle-section-nav-bars">
+            <ul class="technology">
+              <li>html</li>
+              <li>css</li>
+              <li>javascript</li>
+            </ul>
           </div>
 
           <div class="live">
@@ -345,7 +349,7 @@ open2.addEventListener('click', () => {
             </div>
           </div>
 
-        <button class="close2" type="submit">&times</button>
+        
       </div>
     </section>
   `;
@@ -369,49 +373,54 @@ open3.addEventListener('click', () => {
   popup3.innerHTML = `
   
   <section id="tul-1" class="middle-section-container2">
-    <div class="middle-section-nav-bars">
-      <ul class="technology">
-        <li>html</li>
-        <li>css</li>
-        <li>javascript</li>
-      </ul>
-    </div>
-  <div class="popimg">
-  <img src="photo/logos/Snapshoot-Portfolio4.png" alt="Benjamin">
-  </div>
 
-  <div class="hero">
-  <div class="tonic2">
-      <h1>Multi-Post Stories</h1>
-      <div class="canopy-wrapper">
-        <p>CANOPY</p>
-        <ul>
-          <li>Back End Dev</li>
-          <li>2015</li>
-        </ul>
-      </div>
-  </div>
-
-    <div class="text-area">
-      <p>one of many works of Benjamin Ejike, mainly for learning purpose only, report any illegal copyright.
-      </p>
+        <div class="tonic2">
+           <h1>Multi-Post Stories</h1>
+          <div class="canopy-wrapper">
+           <p>BENtech</p>
+            <ul>
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+           <button class="close3 type="submit">&times</button>
+        </div> 
+      
+    <div class="popimg">
+     <img src="photo/logos/Snapshoot-Portfolio4.png" alt="Benjamin">
     </div>
 
-    <div class="live">
-      <div class="see1">
-        <button class="bee-btn"><a href="#see-1">See live</a></button>
-        <img src="photo/logos/github.jpg" alt="">
-      </div>
-    
-      <div class="see1">
-        <button class="bee-btn"><a href="#see-2">See source</a></button>
-        <img src="photo/logos/github.jpg" alt="">
+    <div class="hr">
+
+        <div class="text-area">
+          <p>one of many works of Benjamin Ejike, mainly for learning purpose only, report any illegal copyright.
+          Non voluptas repellendus ut dolores sunt qui consequatur consequatur cum odio blanditiis sit dolores esse in officia possimus. Est repellat ullam qui Quis impedit qui obcaecati quod At excepturi accusamus. Et rerum beatae ut aliquid itaque et voluptates voluptate et delectus temporibus.
+          volvel dolores deleniti et? 
+          </p>
+        </div>
+      <div class="pop-side">
+        <div class="middle-section-nav-bars">
+          <ul class="technology">
+           <li>html</li>
+           <li>css</li>
+           <li>javascript</li>
+         </ul>
+        </div>
+      
+          <div class="live">
+            <div class="see1">
+            <button class="bee-btn"><a href="#see-1">See live</a></button>
+            <img src="photo/logos/github.jpg" alt="">
+            </div>
+        
+            <div class="see1">
+              <button class="bee-btn"><a href="#see-2">See source</a></button>
+              <img src="photo/logos/github.jpg" alt="">
+            </div>
+          </div>
       </div>
     </div>
-
-    <button class="close3 type="submit">&times</button>
-  </div>
-</section>
+  </section>
   `;
   main3.appendChild(popup3);
   allCards.appendChild(main3);

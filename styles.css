@@ -206,6 +206,14 @@ body {
   justify-content: center;
 }
 
+.popimg img {
+  width: 100%;
+}
+
+.see1 img {
+  width: 30px;
+}
+
 .icon a > img {
   width: 14px;
   padding: 7px;
@@ -556,10 +564,6 @@ body {
   justify-content: center;
 }
 
-.popimg img {
-  width: 100%;
-}
-
 .main1 {
   width: 100vw;
   height: 100vh;
@@ -665,15 +669,6 @@ body {
 .see1:hover {
   background-color: #396df2;
   color: #fff;
-} 
-
-.bee-btn a:hover {
-  color: #fff;
-} 
-
-.bee-btn {
-  border: none;
-  background: none;
 }
 
 .bee-btn a {
@@ -682,14 +677,19 @@ body {
   color: #396df2;
 }
 
-.see1 img {
-  width: 30px;
+.bee-btn a:hover {
+  color: #fff;
+}
+
+.bee-btn {
+  border: none;
+  background: none;
 }
 
 .see1 img:hover {
   color: #fff;
   background: #fff;
-} 
+}
 
 .live {
   display: flex;

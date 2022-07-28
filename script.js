@@ -166,9 +166,9 @@ lists.addEventListener('click', () => {
 const open = document.querySelector('.project-link');
 open.addEventListener('click', () => {
   const main = document.createElement('div');
-  main.className = 'main'
+  main.className = 'main';
   const popup = document.createElement('div');
-  popup.className = 'popup'
+  popup.className = 'popup';
   popup.innerHTML = `
       <section id="tul-1" class="middle-section-container">
             <div class="tonic">
@@ -229,15 +229,14 @@ open.addEventListener('click', () => {
   close.addEventListener('click', () => {
     allCards.removeChild(main);
   });
-
 });
 
 const open1 = document.querySelector('.project-link1');
 open1.addEventListener('click', () => {
   const main1 = document.createElement('div');
-  main1.className = 'main1'
+  main1.className = 'main1';
   const popup1 = document.createElement('div');
-  popup1.className = 'popup1'
+  popup1.className = 'popup1';
   popup1.innerHTML = `
     <section class="middle-section-container2">
         <div class="tonic2">
@@ -297,16 +296,14 @@ open1.addEventListener('click', () => {
   close1.addEventListener('click', () => {
     allCards.removeChild(main1);
   });
-
 });
-
 
 const open2 = document.querySelector('.project-link2');
 open2.addEventListener('click', () => {
   const main2 = document.createElement('div');
-  main2.className = 'main2'
+  main2.className = 'main2';
   const popup2 = document.createElement('div');
-  popup2.className = 'popup2'
+  popup2.className = 'popup2';
   popup2.innerHTML = `
   
   <section class="middle-section-container">
@@ -367,15 +364,14 @@ open2.addEventListener('click', () => {
   close2.addEventListener('click', () => {
     allCards.removeChild(main2);
   });
-
 });
 
 const open3 = document.querySelector('.project-link3');
 open3.addEventListener('click', () => {
   const main3 = document.createElement('div');
-  main3.className = 'main3'
+  main3.className = 'main3';
   const popup3 = document.createElement('div');
-  popup3.className = 'popup3'
+  popup3.className = 'popup3';
   popup3.innerHTML = `
   
   <section id="tul-1" class="middle-section-container2">
@@ -435,5 +431,4 @@ open3.addEventListener('click', () => {
   close3.addEventListener('click', () => {
     allCards.removeChild(main3);
   });
-
 });

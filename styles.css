@@ -103,9 +103,9 @@ body {
   transform: scale(0);
 }
 
-.t-menu.active {
+/* .t-menu.active {
   transform: scale(1);
-}
+} */
 
 .c-button {
   cursor: pointer;
@@ -564,9 +564,9 @@ body {
   justify-content: center;
 }
 
-.popimg img {
+/* .popimg img {
   width: 100%;
-}
+} */
 
 .main1 {
   width: 100vw;

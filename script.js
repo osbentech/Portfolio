@@ -30,6 +30,7 @@ const popProject2 = document.getElementById('btn-2');
 const popProject3 = document.getElementById('btn-3');
 const popProject = document.getElementById('btn-4');
 const popall = document.querySelector('.popall');
+const blur = document.getElementById('blur');
 
 const projArr = [
   {
@@ -92,21 +93,57 @@ function popFill(arr, num) {
 popProject.addEventListener('click', () => {
   popall.classList.toggle('active');
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 0);
 });
 popProject1.addEventListener('click', () => {
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 1);
 });
 popProject2.addEventListener('click', () => {
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 2);
 });
 popProject3.addEventListener('click', () => {
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 3);
 });
 
 popClose.addEventListener('click', () => {
   popUp.classList.remove('active');
+  blur.classList.remove('active');
 });
+
+// Form validation feature
+const contForm = document.querySelector('form');
+const emailForm = document.getElementById('email');
+const vError = document.querySelector('.error-msg');
+function checkEmail(input) {
+  const low = input.toLowerCase();
+
+  if (input !== low) {
+    vError.innerText = 'Please submit your Email in lower case letters with @ sign.';
+    vError.className = 'alert error';
+    return false;
+  }
+  if (input === low) {
+    vError.innerText = 'Submitted Succesfully';
+    vError.className = 'alert success';
+    setTimeout(() => {
+      contForm.submit();
+    },
+    5000);
+  }
+  return true;
+}
+contForm.addEventListener('submit', (event) => {
+  if (checkEmail(emailForm.value) === false) {
+    event.preventDefault();
+  } else {
+    event.run();
+  }
+});
+// please type your email address in this format "name@example.com"

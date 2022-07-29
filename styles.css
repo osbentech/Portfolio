@@ -614,6 +614,7 @@ body {
   font-family: 'Poppins', sans-serif;
   justify-content: space-between;
   z-index: 10;
+  overflow-y: scroll;
 }
 
 .popUp .popHead {
@@ -1006,8 +1007,8 @@ body {
   }
 
   .popUp.active {
-    top: 17%;
-    left: 17%;
+    top: 5vh;
+    left: 35vh;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;

@@ -725,6 +725,10 @@ body {
   text-align: center;
 }
 
+.popUpBtn img {
+  width: 19px;
+}
+
 @media (min-width: 768px) {
   body {
     width: 100%;

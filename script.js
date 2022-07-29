@@ -122,6 +122,8 @@ const sForm = document.querySelector('.contact-form');
 const sEmail = document.querySelector('.email');
 const sError = document.querySelector('.error-msg')
 
+
+
 sForm.addEventListener('submit', (e) => {
   let low = sEmail.value.lowerCase();
   if (sEmail.value !== low) {

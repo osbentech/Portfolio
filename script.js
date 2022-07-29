@@ -29,6 +29,7 @@ const popProject1 = document.getElementById('btn-1');
 const popProject2 = document.getElementById('btn-2');
 const popProject3 = document.getElementById('btn-3');
 const popProject = document.getElementById('btn-4');
+const popall = document.querySelector('.popall');
 
 const projArr = [
   {
@@ -89,6 +90,7 @@ function popFill(arr, num) {
   });
 }
 popProject.addEventListener('click', () => {
+  popall.classList.toggle('active');
   popUp.classList.toggle('active');
   popFill(projArr, 0);
 });

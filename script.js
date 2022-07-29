@@ -117,19 +117,33 @@ popClose.addEventListener('click', () => {
   blur.classList.remove('active');
 });
 
-//Form validation feature
-const sForm = document.querySelector('.contact-form');
-const sEmail = document.querySelector('.email');
-const sError = document.querySelector('.error-msg')
+// Form validation feature
+const contForm = document.querySelector('form');
+  const emailForm = document.getElementById('email');
+  const vError = document.querySelector('.error-msg');
+  function checkEmail(input) {
+    const low = input.toLowerCase();
 
-
-
-sForm.addEventListener('submit', (e) => {
-  let low = sEmail.value.lowerCase();
-  if (sEmail.value !== low) {
-    sError.innerText = 'Please submit your Email in lower case letters with @ sign.';
-    sError.className = 'alert error';
-    e.preventDefault();
+    if (input !== low) {
+      vError.innerText = 'Please submit your Email in lower case letters with @ sign.';
+      vError.className = 'alert error';
+      return false;
+    }
+    if (input === low) {
+      vError.innerText = 'Submitted Succesfully';
+      vError.className = 'alert success';
+      setTimeout(() => {
+        contForm.submit();
+      },
+      5000);
+    }
+    return true;
   }
-})
-//please type your email address in this format "name@example.com"
+  contForm.addEventListener('submit', (event) => {
+    if (checkEmail(emailForm.value) === false) {
+      event.preventDefault();
+    } else {
+      event.run();
+    }
+  });
+// please type your email address in this format "name@example.com"

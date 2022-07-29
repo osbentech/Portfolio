@@ -206,12 +206,8 @@ body {
   justify-content: center;
 }
 
-.popimg img {
-  width: 100%;
-}
-
-.see1 img {
-  width: 30px;
+.popUpBtn img {
+  width: 19px;
 }
 
 .icon a > img {
@@ -597,7 +593,6 @@ body {
   cursor: pointer;
 }
 
-
 .popUp {
   display: none;
 }
@@ -723,10 +718,6 @@ body {
   color: #6070ff;
   font-size: 15px;
   text-align: center;
-}
-
-.popUpBtn img {
-  width: 19px;
 }
 
 @media (min-width: 768px) {

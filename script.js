@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
   const menu = document.querySelector('.menu');
   const menuList = document.querySelector('.t-menu');
   const close = document.querySelector('.c-button');
@@ -109,4 +108,3 @@ document.addEventListener('DOMContentLoaded', () => {
   popClose.addEventListener('click', () => {
     popUp.classList.remove('active');
   });
-});  

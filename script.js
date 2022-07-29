@@ -118,6 +118,9 @@ popClose.addEventListener('click', () => {
 });
 
 //Form validation feature
+const sForm = document.querySelector('.contact-form');
+const sEmail = document.querySelector('.email');
+const sError = document.querySelector('.error-msg')
 
 
 //please type your email address in this format "name@example.com"

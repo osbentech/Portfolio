@@ -187,6 +187,7 @@ body {
   padding-left: 23px;
   padding-right: 35px;
   width: 260px;
+  margin-top: 65px;
 }
 
 .frameworks img {
@@ -539,7 +540,14 @@ body {
   transition-timing-function: ease-in;
 }
 
-.contact-button:hover {
+.my-form-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+ .contact-button:hover {
   color: #ebebff;
   background-color: #6070ff;
   border: 1px solid white;
@@ -591,6 +599,10 @@ body {
   background-color: #6070ff;
   color: #fff;
   cursor: pointer;
+}
+
+.all-cards#blur.active {
+  filter: blur(20px);
 }
 
 .popall.active {

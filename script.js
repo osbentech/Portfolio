@@ -30,6 +30,7 @@ const popProject2 = document.getElementById('btn-2');
 const popProject3 = document.getElementById('btn-3');
 const popProject = document.getElementById('btn-4');
 const popall = document.querySelector('.popall');
+const blur = document.getElementById('blur');
 
 const projArr = [
   {
@@ -92,21 +93,31 @@ function popFill(arr, num) {
 popProject.addEventListener('click', () => {
   popall.classList.toggle('active');
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 0);
 });
 popProject1.addEventListener('click', () => {
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 1);
 });
 popProject2.addEventListener('click', () => {
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 2);
 });
 popProject3.addEventListener('click', () => {
   popUp.classList.toggle('active');
+  blur.classList.toggle('active');
   popFill(projArr, 3);
 });
 
 popClose.addEventListener('click', () => {
   popUp.classList.remove('active');
+  blur.classList.remove('active');
 });
+
+//Form validation feature
+
+
+//please type your email address in this format "name@example.com"

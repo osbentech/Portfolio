@@ -550,48 +550,6 @@ body {
   transform: rotate(45deg);
 }
 
-.main {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, 30%);
-}
-
-.popimg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.main1 {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, 30%);
-}
-
-.see-menu {
-  display: none;
-}
-
-.main2 {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, 30%);
-}
-
-.main3 {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, 30%);
-}
-
 .project-link1 {
   border: 1px solid blue;
   width: 120px;
@@ -639,67 +597,131 @@ body {
   cursor: pointer;
 }
 
-.close,
-.close1,
-.close2,
-.close3 {
+.popUp {
+  display: none;
+}
+
+.popUp.active {
+  position: fixed;
+  top: 10px;
   display: flex;
-  position: absolute;
-  top: 0;
-  margin: 80px 0 0 600px;
-  border: none;
-  height: 30px;
-  width: 30px;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
   align-items: center;
+  padding: 16px 18px;
+  font-family: 'Poppins', sans-serif;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.popUp .popHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 311px;
+  height: 100px;
   justify-content: center;
+  margin-bottom: 12px;
 }
 
-.see1 {
-  border: 1px solid #396df2;
-  width: 250px;
+.popUp .popHeader .popn {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-radius: 5px;
-  background-color: #fff;
-  height: 50px;
-  margin-top: 20px;
+  justify-content: space-between;
 }
 
-.see1:hover {
-  background-color: #396df2;
-  color: #fff;
+.popUp .popHeader .popn .popProj {
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+  width: 259px;
+  height: 36px;
 }
 
-.bee-btn a {
-  text-decoration: none;
-  font-size: 17px;
-  color: #396df2;
-}
-
-.bee-btn a:hover {
-  color: #fff;
-}
-
-.bee-btn {
+.popUp .popHeader .popn .close-btn {
+  cursor: pointer;
   border: none;
   background: none;
+  outline: none;
+  font-size: 2rem;
+  color: #67798e;
 }
 
-.see1 img:hover {
-  color: #fff;
-  background: #fff;
+.popUp .popHeader .popName {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
 }
 
-.live {
+.popUp .pphoto {
+  width: 311px;
+  height: 220px;
+  border-radius: 8px;
+  order: 1;
+}
+
+.popUp .popDate {
   display: flex;
-  width: 100%;
-  gap: 17px;
-  justify-content: center;
+  flex-direction: column;
+  order: 2;
+  width: 311px;
+  height: auto;
+  padding: 12px 0;
+  align-items: flex-start;
+  gap: 12px;
 }
 
-.hr .text-area {
-  width: 100%;
+.popUp .popDate .popText {
+  width: 311px;
+  height: auto;
+  font-weight: 400;
+  font-size: 15px;
+  color: #344563;
+}
+
+.popUp .popDate .popSocial {
+  display: flex;
+  flex-direction: column;
+}
+
+.popUp .popDate .popSocial .popList {
+  padding-left: 0;
+}
+
+.popUp .popDate .pplist {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 8px;
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6070ff;
+  list-style-type: none;
+}
+
+.popUp .popDate .live {
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  width: 314px;
+}
+
+.popUp .popDate .popUpBtn {
+  box-sizing: border-box;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 145px;
+  height: 48px;
+  text-decoration: none;
+  padding: 12px 12px;
+  color: #6070ff;
+  font-size: 15px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -978,96 +1000,69 @@ body {
     align-items: center;
   }
 
-  .pop-side {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-top: 60px;
+  .popUp.active {
+    top: 0;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    background: #fff;
+    width: 1156px;
+    height: 850px;
+    overflow-y: scroll;
   }
 
-  .popimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .popUp .popHeader {
+    height: 84px;
+    width: 1108px;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    margin-bottom: 0;
   }
 
-  .popup1 .middle-section-container2,
-  .popup3 .middle-section-container2 {
-    background-color: white;
-    border-bottom-left-radius: 20px;
-    border: 2px solid white;
-    margin: 40px 35px;
-    flex-direction: column;
+  .popUp .popHeader .popn {
+    height: 40px;
+    width: 1108px;
+    margin-bottom: 24px;
   }
 
-  .popup .middle-section-container,
-  .popup2 .middle-section-container {
-    background-color: white;
-    border-bottom-left-radius: 20px;
-    border: 2px solid white;
-    margin: 40px 35px;
-    flex-direction: column;
+  .popUp .popHeader .popProj {
+    height: 40px;
+    width: 1056px;
+    font-size: 40px;
+    font-weight: 700;
   }
 
-  .hr {
-    display: flex;
+  .popUp .popHeader .close-btn {
+    height: 24px;
+    width: 24px;
+    padding-left: 32px;
   }
 
-  .hr .text-area {
-    font-size: 11px;
-    color: #344563;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 120px;
-    gap: 25px;
+  .popUp .popPic1 {
+    height: 586px;
+    width: 1108px;
+    border-radius: 8px;
+    padding: 24px;
   }
 
-  .live {
-    margin-right: 90px;
-    width: 90%;
+  .popUp .popDate {
+    flex-direction: row;
+    height: 586px;
+    width: 1108px;
+    padding: 24px;
+    justify-content: space-between;
   }
 
-  .close,
-  .close1,
-  .close2,
-  .close3 {
-    margin: 80px 0 0 600px;
+  .popup .popDate .popText {
+    width: 778px;
+    height: 382px;
+    text-align: justify;
+    font-size: 16px;
   }
 
-  .see1 {
-    width: 150px;
-  }
-
-  .popup .technology,
-  .popup1 .technology,
-  .popup2 .technology,
-  .popup3 .technology {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
-    list-style-type: none;
-    margin: 10px 0 10px 50px;
-  }
-
-  .popup .tonic,
-  .popup .tonic2 {
-    margin-right: 560px;
-  }
-
-  .popup1 .tonic,
-  .popup1 .tonic2 {
-    margin-right: 560px;
-  }
-
-  .popup2 .tonic,
-  .popup2 .tonic2 {
-    margin-right: 560px;
-  }
-
-  .popup3 .tonic,
-  .popup3 .tonic2 {
-    margin-right: 560px;
+  .popup .popDate .popSocial {
+    height: 157px;
+    width: 306px;
   }
 }

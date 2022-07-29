@@ -597,6 +597,7 @@ body {
   cursor: pointer;
 }
 
+
 .popUp {
   display: none;
 }
@@ -615,7 +616,7 @@ body {
   z-index: 10;
 }
 
-.popUp .popHeader {
+.popUp .popHead {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -625,12 +626,12 @@ body {
   margin-bottom: 12px;
 }
 
-.popUp .popHeader .popn {
+.popUp .popHead .popn {
   display: flex;
   justify-content: space-between;
 }
 
-.popUp .popHeader .popn .popProj {
+.popUp .popHead .popn .popProj {
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
@@ -638,7 +639,7 @@ body {
   height: 36px;
 }
 
-.popUp .popHeader .popn .close-btn {
+.popUp .popHead .popn .close-button {
   cursor: pointer;
   border: none;
   background: none;
@@ -647,21 +648,21 @@ body {
   color: #67798e;
 }
 
-.popUp .popHeader .popName {
+.popUp .popHead .popName {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
 }
 
-.popUp .pphoto {
+.popUp .popPic1 {
   width: 311px;
   height: 220px;
   border-radius: 8px;
   order: 1;
 }
 
-.popUp .popDate {
+.popUp .popDet {
   display: flex;
   flex-direction: column;
   order: 2;
@@ -672,7 +673,7 @@ body {
   gap: 12px;
 }
 
-.popUp .popDate .popText {
+.popUp .popDet .popTex {
   width: 311px;
   height: auto;
   font-weight: 400;
@@ -680,16 +681,16 @@ body {
   color: #344563;
 }
 
-.popUp .popDate .popSocial {
+.popUp .popDet .popSocial {
   display: flex;
   flex-direction: column;
 }
 
-.popUp .popDate .popSocial .popList {
+.popUp .popDet .popSocial .popList {
   padding-left: 0;
 }
 
-.popUp .popDate .pplist {
+.popUp .popDet .pplist {
   display: inline-block;
   text-decoration: none;
   background-color: #ebebff;
@@ -704,14 +705,14 @@ body {
   list-style-type: none;
 }
 
-.popUp .popDate .live {
+.popUp .popDet .live {
   display: flex;
   justify-content: space-around;
   height: 56px;
   width: 314px;
 }
 
-.popUp .popDate .popUpBtn {
+.popUp .popDet .popUpBtn {
   box-sizing: border-box;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -1011,7 +1012,7 @@ body {
     overflow-y: scroll;
   }
 
-  .popUp .popHeader {
+  .popUp .popHead {
     height: 84px;
     width: 1108px;
     align-items: flex-start;
@@ -1020,20 +1021,20 @@ body {
     margin-bottom: 0;
   }
 
-  .popUp .popHeader .popn {
+  .popUp .popHead .popn {
     height: 40px;
     width: 1108px;
     margin-bottom: 24px;
   }
 
-  .popUp .popHeader .popProj {
+  .popUp .popHead .popProj {
     height: 40px;
     width: 1056px;
     font-size: 40px;
     font-weight: 700;
   }
 
-  .popUp .popHeader .close-btn {
+  .popUp .popHead .close-button {
     height: 24px;
     width: 24px;
     padding-left: 32px;
@@ -1046,7 +1047,7 @@ body {
     padding: 24px;
   }
 
-  .popUp .popDate {
+  .popUp .popDet {
     flex-direction: row;
     height: 586px;
     width: 1108px;
@@ -1054,14 +1055,14 @@ body {
     justify-content: space-between;
   }
 
-  .popup .popDate .popText {
+  .popup .popDet .popTex {
     width: 778px;
     height: 382px;
     text-align: justify;
     font-size: 16px;
   }
 
-  .popup .popDate .popSocial {
+  .popup .popDet .popSocial {
     height: 157px;
     width: 306px;
   }

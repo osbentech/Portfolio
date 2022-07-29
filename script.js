@@ -119,31 +119,31 @@ popClose.addEventListener('click', () => {
 
 // Form validation feature
 const contForm = document.querySelector('form');
-  const emailForm = document.getElementById('email');
-  const vError = document.querySelector('.error-msg');
-  function checkEmail(input) {
-    const low = input.toLowerCase();
+const emailForm = document.getElementById('email');
+const vError = document.querySelector('.error-msg');
+function checkEmail(input) {
+  const low = input.toLowerCase();
 
-    if (input !== low) {
-      vError.innerText = 'Please submit your Email in lower case letters with @ sign.';
-      vError.className = 'alert error';
-      return false;
-    }
-    if (input === low) {
-      vError.innerText = 'Submitted Succesfully';
-      vError.className = 'alert success';
-      setTimeout(() => {
-        contForm.submit();
-      },
-      5000);
-    }
-    return true;
+  if (input !== low) {
+    vError.innerText = 'Please submit your Email in lower case letters with @ sign.';
+    vError.className = 'alert error';
+    return false;
   }
-  contForm.addEventListener('submit', (event) => {
-    if (checkEmail(emailForm.value) === false) {
-      event.preventDefault();
-    } else {
-      event.run();
-    }
-  });
+    if (input === low) {
+    vError.innerText = 'Submitted Succesfully';
+    vError.className = 'alert success';
+    setTimeout(() => {
+      contForm.submit();
+    },
+    5000);
+  }
+  return true;
+}
+contForm.addEventListener('submit', (event) => {
+  if (checkEmail(emailForm.value) === false) {
+    event.preventDefault();
+  } else {
+    event.run();
+  }
+});
 // please type your email address in this format "name@example.com"

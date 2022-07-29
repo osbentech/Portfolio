@@ -129,7 +129,7 @@ function checkEmail(input) {
     vError.className = 'alert error';
     return false;
   }
-    if (input === low) {
+  if (input === low) {
     vError.innerText = 'Submitted Succesfully';
     vError.className = 'alert success';
     setTimeout(() => {

@@ -122,5 +122,12 @@ const sForm = document.querySelector('.contact-form');
 const sEmail = document.querySelector('.email');
 const sError = document.querySelector('.error-msg')
 
-
+sForm.addEventListener('submit', (e) => {
+  let low = sEmail.value.lowerCase();
+  if (sEmail.value !== low) {
+    sError.innerText = 'Please submit your Email in lower case letters with @ sign.';
+    sError.className = 'alert error';
+    e.preventDefault();
+  }
+})
 //please type your email address in this format "name@example.com"

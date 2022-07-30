@@ -161,12 +161,12 @@ function saveData() {
     message: '',
   };
   user.name = username.value;
-  user.email1 = email.value;
+  user.email1 = email1.value;
   user.message = message.value;
   localStorage.setItem('usermessage', JSON.stringify(user));
 }
 username.onchange = saveData;
-email.onchange = saveData;
+email1.onchange = saveData;
 message.onchange = saveData;
 
 // document.forms[0].reset(); to clear the form for the next entries

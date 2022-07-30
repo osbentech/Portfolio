@@ -1019,7 +1019,8 @@ body {
 
   .popUp.active {
     top: 5vh;
-    left: 35vh;
+    left: 65px;
+    right: 90px;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;

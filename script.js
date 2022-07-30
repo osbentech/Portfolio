@@ -1,3 +1,4 @@
+// hamburger btn starts here
 const menu = document.querySelector('.menu');
 const menuList = document.querySelector('.t-menu');
 const close = document.querySelector('.c-button');
@@ -15,7 +16,7 @@ close.addEventListener('click', () => {
 lists.addEventListener('click', () => {
   menuList.classList.remove('active');
 });
-
+// for popUp starts here
 const popUp = document.querySelector('.popUp');
 const popProj = document.querySelector('.popProj');
 const popName = document.querySelector('.popName');
@@ -125,7 +126,7 @@ function checkEmail(input) {
   const low = input.toLowerCase();
 
   if (input !== low) {
-    vError.innerText = 'Please submit your Email in lower case letters with @ sign.';
+    vError.innerText = 'Please submit your Email in lowercase, eg name@example.com.';
     vError.className = 'alert error';
     return false;
   }
@@ -147,3 +148,37 @@ contForm.addEventListener('submit', (event) => {
   }
 });
 // please type your email address in this format "name@example.com"
+
+/* Local storage for form */
+const username = document.getElementById('name');
+const email1 = document.getElementById('email');
+const message = document.getElementById('text');
+let user;
+function saveData() {
+  user = {
+    name: '',
+    email1: '',
+    message: '',
+  };
+  user.name = username.value;
+  user.email1 = email.value;
+  user.message = message.value;
+  localStorage.setItem('usermessage', JSON.stringify(user));
+}
+username.onchange = saveData;
+email.onchange = saveData;
+message.onchange = saveData;
+
+// document.forms[0].reset(); to clear the form for the next entries
+// Or I can use -> document.querySelector('form').reset();
+// but the reset of the form dont let me validate the form.////////////
+
+// Preserve input data with reload or refresh
+window.addEventListener('load', () => {
+  user = JSON.parse(localStorage.getItem('usermessage'));
+  if (user) {
+    username.value = user.name;
+    email1.value = user.email1;
+    message.value = user.message;
+  }
+});

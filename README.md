@@ -1,8 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-world
+> ## My portfolio.
 
-> My portfolio.
+   Hello and welcome,
+   this is a personal portfolio depicting Benjamin Ejike Osegbo
+   A full stack web developer...
+
+   ## Preview 📸
+   
+   <img width="800" alt="JS Capstone Preview Screenshot" src="./img/preview.png">
 
 Below is the link to my portfolio-project
 (https://osbentech.github.io/Portfolio/)

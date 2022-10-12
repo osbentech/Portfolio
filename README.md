@@ -27,7 +27,7 @@ Below is the link to my portfolio-project
 
 - GitHub: [@githubhandle](https://github.com/osbentech)
 - Twitter: [@twitterhandle](https://twitter.com/EjikeOsegbo)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/benjamin-ejike-632248206)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/benejike)
 
 
 ## 🤝 Contributing

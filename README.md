@@ -8,7 +8,7 @@
 
    ## Preview 📸
    
-   <img width="800" alt="JS Capstone Preview Screenshot" src="./img/preview.png">
+   <img width="800" alt="JS prtfolio Preview Screenshot" src="photo/bg/portfolio-preview">
 
 Below is the link to my portfolio-project
 (https://osbentech.github.io/Portfolio/)

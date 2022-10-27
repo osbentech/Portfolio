@@ -26,53 +26,53 @@ const popList = document.getElementById('popList1');
 const popClose = document.querySelector('.close-button');
 const popUpLive = document.getElementById('popUpLive');
 const popUpSource = document.getElementById('popUpSource');
-const popProject1 = document.getElementById('btn-1');
-const popProject2 = document.getElementById('btn-2');
-const popProject3 = document.getElementById('btn-3');
-const popProject = document.getElementById('btn-4');
+const popProject = document.getElementById('btn-1');
+const popProject1 = document.getElementById('btn-2');
+const popProject2 = document.getElementById('btn-3');
+const popProject3 = document.getElementById('btn-4');
 const popall = document.querySelector('.popall');
 const blur = document.getElementById('blur');
 
 const projArr = [
   {
+    id: 0,
+    pName: 'CoinApp',
+    pAuthure: 'CoinApp &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
+    pPic: 'photo/assets/coinapp.png',
+    pText: 'A React based project named Metrics webApp. It fetches data from Api and displays in the UI',
+    pTechs: ['Html', 'Css', 'React'],
+    pLive: 'https://osbentech.github.io/Portfolio/',
+    pSource: 'https://github.com/osbentech/metrics-webapp.git',
+  },
+  {
     id: 1,
-    pName: 'BENtech',
+    pName: 'MOvieAPP',
     pAuthure: 'Benjamin &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    pPic: 'photo/ben/ben4.png',
-    pText: 'An open source code, created and designed by Benjamin Ejike while studying with microverse, kindly report any kink of copyright.',
+    pPic: 'photo/assets/DB-Movies.png',
+    pText: 'A javascript based project named MoviesApp. It fetches movie data from Api and displays in the UI.',
     pTechs: ['Html', 'Css', 'JavaScript'],
     pLive: 'https://osbentech.github.io/Portfolio/',
-    pSource: 'https://github.com/osbentech',
+    pSource: 'https://github.com/osbentech/movieApp.git',
   },
   {
     id: 2,
-    pName: 'BENtech',
+    pName: 'SpaceHub',
     pAuthure: 'Benjamin &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    pPic: 'photo/ben/ben4.png',
-    pText: 'An open source code, created and designed by Benjamin Ejike while studying with microverse, kindly report any kink of copyright.',
-    pTechs: ['Html', 'Css', 'JavaScript'],
+    pPic: 'photo/assets/space-hub.png',
+    pText: 'A React based project named Space-hub. It fetches mission and rocket data from Api and displays in the UI.',
+    pTechs: ['Html', 'Css', 'React'],
     pLive: 'https://osbentech.github.io/Portfolio/',
-    pSource: 'https://github.com/osbentech',
+    pSource: 'https://github.com/osbentech/space-hub.git',
   },
   {
     id: 3,
-    pName: 'BENtech',
+    pName: 'TodoList',
     pAuthure: 'Benjamin &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    pPic: 'photo/ben/ben4.png',
-    pText: 'An open source code, created and designed by Benjamin Ejike while studying with microverse, kindly report any kink of copyright.',
+    pPic: 'photo/assets/To-do-list.png',
+    pText: 'A javascript based project named To-do-list. It enables user add, edit and remove tasks.',
     pTechs: ['Html', 'Css', 'JavaScript'],
     pLive: 'https://osbentech.github.io/Portfolio/',
-    pSource: 'https://github.com/osbentech',
-  },
-  {
-    id: 4,
-    pName: 'BENtech',
-    pAuthure: 'Benjamin &nbsp; &bull; &nbsp; Back End Dev &nbsp;&bullet;&nbsp; 2022',
-    pPic: 'photo/ben/ben4.png',
-    pText: 'An open source code, created and designed by Benjamin Ejike while studying with microverse, kindly report any kink of copyright.',
-    pTechs: ['Html', 'Css', 'JavaScript'],
-    pLive: 'https://osbentech.github.io/Portfolio/',
-    pSource: 'https://github.com/osbentech',
+    pSource: 'https://github.com/osbentech/To-Do-List.git',
   },
 ];
 function popFill(arr, num) {

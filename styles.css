@@ -283,7 +283,7 @@ body {
 }
 
 .canopy-wrapper > p {
-  width: 50px;
+  width: 70px;
   color: #344563;
 }
 
@@ -378,11 +378,13 @@ body {
   width: 120px;
   height: 30px;
   border-radius: 4px;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   color: #396df2;
   font-size: 15px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .resume:hover {
@@ -626,6 +628,7 @@ body {
   justify-content: space-between;
   z-index: 10;
   overflow-y: scroll;
+  margin-bottom: 40px;
 }
 
 .popUp .popHead {
@@ -1028,6 +1031,7 @@ body {
     width: 1156px;
     height: 850px;
     overflow-y: scroll;
+    margin-bottom: 40px;
   }
 
   .popUp .popHead {
@@ -1059,8 +1063,8 @@ body {
   }
 
   .popUp .popPic1 {
-    height: 586px;
-    width: 1108px;
+    height: 17rem;
+    width: 85%;
     border-radius: 8px;
     padding: 24px;
   }

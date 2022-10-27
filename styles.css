@@ -38,7 +38,7 @@ body {
   background-position: top;
 }
 
-.myself > .greeting {
+.myself>.greeting {
   align-items: center;
   width: 200px;
   height: 112.75px;
@@ -200,7 +200,7 @@ body {
   cursor: pointer;
 }
 
-.image-area > img {
+.image-area>img {
   width: 100%;
   display: flex;
   align-items: center;
@@ -211,7 +211,7 @@ body {
   width: 19px;
 }
 
-.icon a > img {
+.icon a>img {
   width: 14px;
   padding: 7px;
   height: 15px;
@@ -253,7 +253,7 @@ body {
   justify-content: center;
 }
 
-.tonic > h1 {
+.tonic>h1 {
   font-size: 30px;
   line-height: 44px;
   color: #172b4d;
@@ -270,7 +270,7 @@ body {
   width: 200px;
 }
 
-.canopy-wrapper > ul {
+.canopy-wrapper>ul {
   display: grid;
   grid-template-columns: auto auto;
   color: #7a869a;
@@ -282,7 +282,7 @@ body {
   height: 40px;
 }
 
-.canopy-wrapper > p {
+.canopy-wrapper>p {
   width: 70px;
   color: #344563;
 }
@@ -293,7 +293,7 @@ body {
   width: 30px;
 }
 
-.middle-section-nav-bars > ul {
+.middle-section-nav-bars>ul {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
@@ -366,7 +366,7 @@ body {
   color: #172b4d;
 }
 
-.about-myself-icons a > img {
+.about-myself-icons a>img {
   width: 14px;
   padding: 7px;
   height: 15px;
@@ -617,7 +617,6 @@ body {
 .popUp.active {
   position: fixed;
   top: 10px;
-  left: 17%;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -628,7 +627,7 @@ body {
   justify-content: space-between;
   z-index: 10;
   overflow-y: scroll;
-  margin-bottom: 40px;
+  margin: 0 40px 5px 5px;
 }
 
 .popUp .popHead {
@@ -789,7 +788,7 @@ body {
     background-size: 98%;
   }
 
-  .myself > .greeting {
+  .myself>.greeting {
     align-items: center;
     width: 220px;
     height: 112.75px;
@@ -806,7 +805,7 @@ body {
     margin-left: 84px;
   }
 
-  .bio > p {
+  .bio>p {
     font-size: 12px;
     font-weight: 400px;
     line-height: 17px;
